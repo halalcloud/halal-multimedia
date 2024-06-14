@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dom" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/Debug/dom" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../bin/Debug/" />
+				<Option object_output="../obj/Debug/dom/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/Release/dom" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../bin/Release/" />
+				<Option object_output="../obj/Release/dom/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fPIC" />
+			<Add option="-fvisibility=hidden" />
+			<Add option="-fexceptions" />
+			<Add directory="../inc" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl,--rpath=./lib/" />
+			<Add option="-ldl" />
+		</Linker>
+		<Unit filename="../inc/dom_ptr.h" />
+		<Unit filename="../inc/dom_site.h" />
+		<Unit filename="../inc/dump.h" />
+		<Unit filename="../inc/interface.h" />
+		<Unit filename="../inc/interface_imp.h" />
+		<Unit filename="DomSite.cpp" />
+		<Unit filename="DomSite.h" />
+		<Unit filename="Library.cpp" />
+		<Unit filename="Library.h" />
+		<Unit filename="Module.cpp" />
+		<Unit filename="Module.h" />
+		<Unit filename="dom.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

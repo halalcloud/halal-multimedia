@@ -1,0 +1,33 @@
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_16-04-25	[Level]:0
+[Description]:load module[./profile.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_16-04-25	[Level]:0
+[Description]:load module[./ffmpeg.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_16-04-25	[Level]:0
+[Description]:load module[./stream.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_16-04-25	[Level]:0
+[Description]:load module[./media.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_16-04-25	[Level]:0
+[Description]:load module[./libprofile.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_16-04-25	[Level]:0
+[Description]:load module[./libffmpeg.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_16-04-25	[Level]:0
+[Description]:load module[./libstream.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_16-04-25	[Level]:0
+[Description]:load module[./libmedia.so] OK
+[Module]:
+[Type]:Log	[time]:2017-07-20_16-04-25	[Level]:0
+[Description]:support hardware accelarated!
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_16-04-25	[Level]:0
+[Description]:load module[./libIntelCodec.so] OK
+[Module]:./ffmpeg.so
+[Type]:Log	[time]:2017-07-20_16-04-26	[Level]:0
+[Description]:url:[rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01] demux open

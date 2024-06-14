@@ -1,0 +1,138 @@
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_15-55-21	[Level]:0
+[Description]:load module[./profile.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_15-55-21	[Level]:0
+[Description]:load module[./ffmpeg.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_15-55-21	[Level]:0
+[Description]:load module[./stream.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_15-55-21	[Level]:0
+[Description]:load module[./media.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_15-55-21	[Level]:0
+[Description]:load module[./libprofile.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_15-55-21	[Level]:0
+[Description]:load module[./libffmpeg.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_15-55-21	[Level]:0
+[Description]:load module[./libstream.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_15-55-21	[Level]:0
+[Description]:load module[./libmedia.so] OK
+[Module]:
+[Type]:Log	[time]:2017-07-20_15-55-21	[Level]:0
+[Description]:support hardware accelarated!
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-20_15-55-21	[Level]:0
+[Description]:load module[./libIntelCodec.so] OK
+[Module]:./ffmpeg.so
+[Type]:Log	[time]:2017-07-20_15-55-23	[Level]:0
+[Description]:url:[rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01] demux open
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-25	[Level]:1
+[Description]:live transcode speed:0.000000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 199.920000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-28	[Level]:1
+[Description]:live transcode speed:0.610000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.700000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-29	[Level]:1
+[Description]:live transcode speed:0.630000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.660000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-30	[Level]:1
+[Description]:live transcode speed:0.530000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.760000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-31	[Level]:1
+[Description]:live transcode speed:0.360000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.890000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-32	[Level]:1
+[Description]:live transcode speed:0.200000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.860000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-33	[Level]:1
+[Description]:live transcode speed:0.610000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.730000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-34	[Level]:1
+[Description]:live transcode speed:0.620000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.640000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-36	[Level]:1
+[Description]:live transcode speed:0.570000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.730000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-37	[Level]:1
+[Description]:live transcode speed:0.630000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.600000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-38	[Level]:1
+[Description]:live transcode speed:0.670000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.750000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-39	[Level]:1
+[Description]:live transcode speed:0.510000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.820000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-40	[Level]:1
+[Description]:live transcode speed:0.220000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.910000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-41	[Level]:1
+[Description]:live transcode speed:0.120000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.920000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-42	[Level]:1
+[Description]:live transcode speed:0.080000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.940000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-43	[Level]:1
+[Description]:live transcode speed:0.380000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.980000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-44	[Level]:1
+[Description]:live transcode speed:0.080000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.930000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-45	[Level]:1
+[Description]:live transcode speed:0.000000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 100.000000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-46	[Level]:1
+[Description]:live transcode speed:0.000000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.970000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-47	[Level]:1
+[Description]:live transcode speed:0.100000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.940000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-48	[Level]:1
+[Description]:live transcode speed:0.200000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.950000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-49	[Level]:1
+[Description]:live transcode speed:0.000000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 100.000000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-50	[Level]:1
+[Description]:live transcode speed:0.010000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.960000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-51	[Level]:1
+[Description]:live transcode speed:0.120000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.970000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-52	[Level]:1
+[Description]:live transcode speed:0.020000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.990000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-53	[Level]:1
+[Description]:live transcode speed:0.190000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.880000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-54	[Level]:1
+[Description]:live transcode speed:0.120000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.960000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-55	[Level]:1
+[Description]:live transcode speed:0.070000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.930000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-56	[Level]:1
+[Description]:live transcode speed:0.110000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.930000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-57	[Level]:1
+[Description]:live transcode speed:0.000000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 100.000000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-58	[Level]:1
+[Description]:live transcode speed:0.000000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 100.000000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-55-59	[Level]:1
+[Description]:live transcode speed:0.040000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.970000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-56-00	[Level]:1
+[Description]:live transcode speed:0.290000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.900000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-56-01	[Level]:1
+[Description]:live transcode speed:0.000000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 100.000000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-20_15-56-02	[Level]:1
+[Description]:live transcode speed:0.020000.2 too slow,output:rtmp://115.231.103.123/live/test123 expend is 99.990000.2

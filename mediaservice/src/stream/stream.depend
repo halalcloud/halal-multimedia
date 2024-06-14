@@ -1,0 +1,142 @@
+# depslib dependency file v1.0
+1513218077 source:/root/work/git/mediaservice/src/stream/epoll.cpp
+	"epoll.h"
+
+1510211858 /root/work/git/mediaservice/src/stream/epoll.h
+	"stdafx.h"
+
+1507290794 /root/work/git/mediaservice/src/stream/stdafx.h
+	<stdlib.h>
+	<malloc.h>
+	<sys/socket.h>
+	<sys/eventfd.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<netdb.h>
+	<errno.h>
+	<string>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/epoll.h>
+	<list>
+	<memory>
+	<dom.h>
+	<iMulitimedia.h>
+	<Locker.h>
+	"../src/Url.cpp"
+
+1461581679 /root/work/git/mediaservice/src/inc//dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1505359811 /root/work/git/mediaservice/src/inc//dump.h
+	"dom_site.h"
+
+1507875030 /root/work/git/mediaservice/src/inc//dom_site.h
+	"iProfile.h"
+
+1511935175 /root/work/git/mediaservice/src/inc//iProfile.h
+	<interface.h>
+
+1507882647 /root/work/git/mediaservice/src/inc//interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1507883288 /root/work/git/mediaservice/src/inc//dom_ptr.h
+	"dom_site.h"
+	"interface_imp.h"
+	"iStream.h"
+
+1507883190 /root/work/git/mediaservice/src/inc//interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1510206906 /root/work/git/mediaservice/src/inc//iStream.h
+	<stdint.h>
+	<stdarg.h>
+	<interface.h>
+
+1516087805 /root/work/git/mediaservice/src/inc//iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"iStream.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1512466580 /root/work/git/mediaservice/src/inc//MediaID.h
+	"version.h"
+
+1479975524 /root/work/git/mediaservice/src/inc//version.h
+
+1503886305 /root/work/git/mediaservice/src/src//Locker.h
+	<stdint.h>
+	<pthread.h>
+	<iStream.h>
+
+1512125979 /root/work/git/mediaservice/src/src/Url.cpp
+	<stdio.h>
+	<memory.h>
+	<ctype.h>
+	<time.h>
+	<map>
+	<string>
+	<iostream>
+	<algorithm>
+	<arpa/inet.h>
+	<dump.h>
+	"../inc/iMulitimedia.h"
+
+1516087805 /root/work/git/mediaservice/src/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"iStream.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1507882647 /root/work/git/mediaservice/src/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1510206906 /root/work/git/mediaservice/src/inc/iStream.h
+	<stdint.h>
+	<stdarg.h>
+	<interface.h>
+
+1512466580 /root/work/git/mediaservice/src/inc/MediaID.h
+	"version.h"
+
+1479975524 /root/work/git/mediaservice/src/inc/version.h
+
+1511935175 /root/work/git/mediaservice/src/inc/iProfile.h
+	<interface.h>
+
+1513223341 source:/root/work/git/mediaservice/src/stream/file.cpp
+	"file.h"
+	"epoll.h"
+
+1512979645 /root/work/git/mediaservice/src/stream/file.h
+	"stdafx.h"
+
+1507704066 source:/root/work/git/mediaservice/src/stream/main.cpp
+	"stdafx.h"
+	"file.h"
+	"network.h"
+	"epoll.h"
+	<Locker.cpp>
+
+1510565617 /root/work/git/mediaservice/src/stream/network.h
+	"stdafx.h"
+
+1503889039 /root/work/git/mediaservice/src/src//Locker.cpp
+	"Locker.h"
+	<dump.h>
+
+1513220804 source:/root/work/git/mediaservice/src/stream/network.cpp
+	"network.h"
+	"epoll.h"
+	<arpa/inet.h>
+

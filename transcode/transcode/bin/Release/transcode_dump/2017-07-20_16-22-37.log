@@ -1,0 +1,84 @@
+[Module]:/root/work/src/transcode/bin/Release/transcode
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:load module[./profile.so] OK
+[Module]:/root/work/src/transcode/bin/Release/transcode
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:load module[./ffmpeg.so] OK
+[Module]:/root/work/src/transcode/bin/Release/transcode
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:load module[./stream.so] OK
+[Module]:/root/work/src/transcode/bin/Release/transcode
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:load module[./media.so] OK
+[Module]:/root/work/src/transcode/bin/Release/transcode
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:load module[./libprofile.so] OK
+[Module]:/root/work/src/transcode/bin/Release/transcode
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:load module[./libstream.so] OK
+[Module]:/root/work/src/transcode/bin/Release/transcode
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:load module[./libmedia.so] OK
+[Module]:
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:support hardware accelarated!
+[Module]:/root/work/src/transcode/bin/Release/transcode
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:load module[./libIntelCodec.so] OK
+[Module]:/root/work/src/transcode/bin/Release/transcode
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:load module[./libffmpeg.so] OK
+[Module]:./ffmpeg.so
+[Type]:Error	[time]:2017-07-20_16-22-37	[Return]:-1
+[File]:FFmpegDemuxer.cpp
+[Line]:691	[Code]:S_OK <= (hr = avformat_open_input(&m_ctxFormat,pUrl,NULL,NULL))
+[Description]:ffmpeg demuxer open url[http://192.168.200.17/FastAndFurious-7.ts] fail:Server returned 404 Not Found
+[Module]:./libffmpeg.so
+[Type]:Error	[time]:2017-07-20_16-22-37	[Return]:-1
+[File]:/root/work/src/transcode/ffmpeg/FFmpegDemuxer.cpp
+[Line]:691	[Code]:S_OK <= (hr = avformat_open_input(&m_ctxFormat,pUrl,NULL,NULL))
+[Description]:ffmpeg demuxer open url[http://192.168.200.17/FastAndFurious-7.ts] fail:Server returned 404 Not Found
+[Module]:./media.so
+[Type]:Error	[time]:2017-07-20_16-22-37	[Return]:-1
+[File]:FilterGraph.cpp
+[Line]:59	[Code]:spSource != NULL
+[Description]:url[http://192.168.200.17/FastAndFurious-7.ts] can not find support demuxer
+[Module]:./ffmpeg.so
+[Type]:Log	[time]:2017-07-20_16-22-37	[Level]:0
+[Description]:url:[/home/input/XiaoPin.flv] demux open
+[Module]:./ffmpeg.so
+[Type]:Log	[time]:2017-07-20_16-23-03	[Level]:0
+[Description]:url:[/home/input/XiaoPin.flv] demux begin flush hr:4
+[Module]:./ffmpeg.so
+[Type]:Error	[time]:2017-07-20_16-23-03	[Return]:-1
+[File]:FFmpegDemuxer.cpp
+[Line]:691	[Code]:S_OK <= (hr = avformat_open_input(&m_ctxFormat,pUrl,NULL,NULL))
+[Description]:ffmpeg demuxer open url[http://192.168.200.17/FastAndFurious-7.ts] fail:Server returned 404 Not Found
+[Module]:./libffmpeg.so
+[Type]:Error	[time]:2017-07-20_16-23-03	[Return]:-1
+[File]:/root/work/src/transcode/ffmpeg/FFmpegDemuxer.cpp
+[Line]:691	[Code]:S_OK <= (hr = avformat_open_input(&m_ctxFormat,pUrl,NULL,NULL))
+[Description]:ffmpeg demuxer open url[http://192.168.200.17/FastAndFurious-7.ts] fail:Server returned 404 Not Found
+[Module]:./media.so
+[Type]:Error	[time]:2017-07-20_16-23-03	[Return]:-1
+[File]:FilterGraph.cpp
+[Line]:59	[Code]:spSource != NULL
+[Description]:url[http://192.168.200.17/FastAndFurious-7.ts] can not find support demuxer
+[Module]:./ffmpeg.so
+[Type]:Log	[time]:2017-07-20_16-23-04	[Level]:0
+[Description]:url:[/home/input/XiaoPin.flv] demux end flush
+[Module]:./ffmpeg.so
+[Type]:Log	[time]:2017-07-20_16-23-04	[Level]:0
+[Description]:url:[/home/input/XiaoPin.flv] m_streams close
+[Module]:./ffmpeg.so
+[Type]:Log	[time]:2017-07-20_16-23-04	[Level]:0
+[Description]:url:[/home/input/XiaoPin.flv] avformat close
+[Module]:./ffmpeg.so
+[Type]:Log	[time]:2017-07-20_16-23-04	[Level]:0
+[Description]:url:[/home/input/XiaoPin.flv] Notify close event
+[Module]:./ffmpeg.so
+[Type]:Log	[time]:2017-07-20_16-23-04	[Level]:0
+[Description]:url:[/home/input/XiaoPin.flv] demux close
+[Module]:./ffmpeg.so
+[Type]:Log	[time]:2017-07-20_16-23-04	[Level]:0
+[Description]:url:[/home/input/XiaoPin.flv] demux open

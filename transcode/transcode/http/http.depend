@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1471952588 source:/root/work/transcode/http/HttpSession.cpp
+	"HttpSession.h"
+
+1471839267 /root/work/transcode/http/HttpSession.h
+	"stdafx.h"
+
+1471838020 /root/work/transcode/http/stdafx.h
+	<stdio.h>
+	<dom.h>
+	<iStream.h>
+	<iHttp.h>
+
+1461581679 /root/work/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1467805638 /root/work/transcode/inc/dump.h
+	"dom_site.h"
+
+1472121495 /root/work/transcode/inc/dom_site.h
+	"interface.h"
+
+1472022116 /root/work/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1472460850 /root/work/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1472459511 /root/work/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /root/work/transcode/inc/url.h
+
+1467199600 /root/work/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1471839267 /root/work/transcode/inc/iHttp.h
+	"interface.h"
+
+1472017845 source:/root/work/transcode/http/HttpStream.cpp
+	"HttpStream.h"
+
+1472017731 /root/work/transcode/http/HttpStream.h
+	"stdafx.h"
+
+1471838093 source:/root/work/transcode/http/main.cpp
+	"stdafx.h"
+	"HttpSession.h"
+	"HttpStream.h"
+	"../src/Url.cpp"
+
+1469776978 /root/work/transcode/src/Url.cpp
+	<string>
+	"../inc/url.h"
+
+1482475767 source:/home/yf/Work/transcode/http/HttpSession.cpp
+	"HttpSession.h"
+
+1476784496 /home/yf/Work/transcode/http/HttpSession.h
+	"stdafx.h"
+
+1471838020 /home/yf/Work/transcode/http/stdafx.h
+	<stdio.h>
+	<dom.h>
+	<iStream.h>
+	<iHttp.h>
+
+1461581679 /home/yf/Work/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/yf/Work/transcode/inc/dump.h
+	"dom_site.h"
+
+1482474530 /home/yf/Work/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /home/yf/Work/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1482463188 /home/yf/Work/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1480936989 /home/yf/Work/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/yf/Work/transcode/inc/url.h
+
+1482490010 /home/yf/Work/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1471839267 /home/yf/Work/transcode/inc/iHttp.h
+	"interface.h"
+
+1482475767 source:/home/yf/Work/transcode/http/HttpStream.cpp
+	"HttpStream.h"
+
+1476784496 /home/yf/Work/transcode/http/HttpStream.h
+	"stdafx.h"
+
+1471838093 source:/home/yf/Work/transcode/http/main.cpp
+	"stdafx.h"
+	"HttpSession.h"
+	"HttpStream.h"
+	"../src/Url.cpp"
+
+1479722238 /home/yf/Work/transcode/src/Url.cpp
+	<ctype.h>
+	<string>
+	<iostream>
+	<algorithm>
+	"../inc/url.h"
+

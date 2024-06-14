@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="FFmpegVideoEncoder.h" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1418" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioDecoder.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6586" topLine="139" />
+		</Cursor>
+	</File>
+	<File name="FFmpegMuxer.h" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1650" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="FFmpegOSD.cpp" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8379" topLine="263" />
+		</Cursor>
+	</File>
+	<File name="FFmpegMuxer.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11118" topLine="319" />
+		</Cursor>
+	</File>
+	<File name="FFmpegOSD.h" open="1" top="0" tabpos="22" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1382" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="FFmpegVideoScale.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1720" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="FFmpegVideoDecoder.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8357" topLine="296" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioEncoder.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1417" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="FFmpegVideoScale.cpp" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5431" topLine="197" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioResample.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1791" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="FFmpegVideoEncoder.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6072" topLine="198" />
+		</Cursor>
+	</File>
+	<File name="FFmpegDemuxer.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14109" topLine="363" />
+		</Cursor>
+	</File>
+	<File name="FFmpegVideoDecoder.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1675" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioDecoder.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1579" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="MediaType.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2705" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="824" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="stdafx.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="755" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioResample.cpp" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9037" topLine="295" />
+		</Cursor>
+	</File>
+	<File name="MediaType.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17354" topLine="348" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioEncoder.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8539" topLine="292" />
+		</Cursor>
+	</File>
+	<File name="FFmpegDemuxer.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1150" topLine="14" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

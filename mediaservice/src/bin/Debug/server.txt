@@ -1,0 +1,67 @@
+{
+  "input": {
+    "option": {
+      "catch": false,
+      "segment" : "1m"
+    }
+  },
+  "output": [
+    {
+      "stream": [
+        0
+      ],
+      "url_format": "publish://%(input)",
+      "format":"m3u8",
+      "option": {
+        "preload": true,
+        "buffer": 3
+      }
+    },
+    {
+      "stream": [
+        1
+      ],
+      "url_format": "publish://%(input)",
+      "format":"ts",
+      "option": {
+        "preload": true,
+        "buffer": 2
+      }
+    },
+    {
+      "stream": [
+        2
+      ],
+      "url_format": "publish://%(input)",
+      "format":"flv",
+      "option": {
+        "preload": true,
+        "buffer": 2
+      }
+    }
+  ],
+  "template": {
+    "stream": [
+      {
+        "media": {
+          "major": "data"
+        }
+      },
+      {
+        "media": {
+          "major": "data"
+        }
+      },
+      {
+        "media": {
+          "major": "data"
+        }
+      },
+      {
+        "media": {
+          "major": "data"
+        }
+      }
+    ]
+  }
+}

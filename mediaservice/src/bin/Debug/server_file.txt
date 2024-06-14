@@ -1,0 +1,21 @@
+{
+  "input": {
+   "url_format": "%(output)"
+  },
+  "output": [
+    {
+      "stream": [
+        0
+      ]
+    }
+  ],
+  "template": {
+    "stream": [
+      {
+        "media": {
+          "major": "data"
+        }
+      }
+    ]
+  }
+}

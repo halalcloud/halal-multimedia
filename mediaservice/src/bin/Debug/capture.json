@@ -1,0 +1,78 @@
+{
+  "input": {
+    "url_format": "capture://localhost",
+    "option": {
+      "video": "/dev/video0",
+      "audio": "hw:1,0"
+    }
+  },
+  "output": [
+    {
+      "stream": [
+        0,1
+      ],
+      "url_format_": "rtmp://127.0.0.1/capture/live",
+      "url_format": "gosun://127.0.0.1/capture/live",
+      "media": {
+        "id":"gosun",
+        "option": {
+        }
+      }
+    },
+    {
+      "stream": [
+        2
+      ],
+      "url_format": "sdl://localhost"
+    }
+  ],
+  "template": {
+    "stream": [
+      {
+        "media": {
+          "id": "h264",
+          "option": {
+            "bitrate": "2m",
+            "fps": 25.0,
+            "height": 576,
+            "ratioX": 16,
+            "ratioY": 9,
+            "width": 1024,
+            "slice":"3s"
+          }
+        },
+        "transform": [
+          {
+            "name": "CIntelVideoEncoder",
+            "option": {
+              "preset": 1,
+              "gop_size": 25
+            }
+          }
+        ]
+      },
+      {
+        "media": {
+          "id": "aac",
+          "option": {
+            "bitrate": "64k",
+            "channels": 2,
+            "sample_rate": 44100
+          }
+        }
+      },
+      {
+        "media": {
+          "major": "video",
+          "option": {
+            "fps": 30.0,
+            "height": 480,
+            "ratioX": 16,
+            "ratioY": 9,
+            "width": 720
+          }
+        }
+      }
+    ]
+  }
+}

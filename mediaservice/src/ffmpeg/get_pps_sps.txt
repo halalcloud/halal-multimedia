@@ -1,0 +1,88 @@
+/**
+ * @brief get_pps_sps
+ * @param[in] buf
+ * @param[in] size
+ * @param[in] is264
+ * @param[out] offset
+ * @param[out] len 长度不包含一开始的前导０。包含后续的前导０。
+ * @note 265多了个vps。
+ *
+ */
+void get_pps_sps(uint8_t* buf, uint32_t size, bool is264, uint32_t& offset, uint32_t& len);
+
+void get_pps_sps(uint8_t *buf, uint32_t size, bool is264, uint32_t &offset, uint32_t &len)
+{
+    len = 0;
+    struct NAL
+    {
+        uint32_t offfset;
+        uint32_t len;
+    };
+    NAL _nals[1024];
+    if (size < 8 || buf == NULL)
+        return;
+    uint32_t idx = 0;
+
+    bool foundFirstStartCode = false;
+    memset(_nals, 0, sizeof(_nals));
+    for (uint32_t i = 4; i < size && idx < sizeof(_nals)/sizeof(NAL); ++i)
+    {
+        if (0x01 == buf[i-1] && 0x00 == buf[i-2] && 0x00 == buf[i-3])
+        {
+            if (false == foundFirstStartCode)
+            {
+                foundFirstStartCode = true;
+                _nals[idx].offfset = i;
+                idx++;
+                continue;
+            }
+            _nals[idx].offfset = i;
+            _nals[idx-1].len = i - _nals[idx-1].offfset - (buf[i-4] == 0 ?4:3);
+            ++idx;
+        }
+    }
+    if (idx > 0)
+        _nals[idx-1].len = size - _nals[idx-1].offfset;
+
+    static const uint8_t AVCPPS = 0x8;
+    static const uint8_t AVCSPS = 0x7;
+    static const uint8_t HEVCPPS = 34;
+    static const uint8_t HEVCSPS = 33;
+    static const uint8_t HEVCVPS = 32;
+    for (int i = 1; i < 1024 && _nals[i].len != 0; ++i)
+    {
+        uint8_t pps, sps;
+        uint8_t rsh = 0;
+        pps = AVCPPS;
+        sps = AVCSPS;
+        uint8_t mark = 0x1f;
+        if (false == is264)
+        {
+            rsh = 1;
+            pps = HEVCPPS;
+            sps = HEVCSPS;
+            mark = 0x3f;
+        }
+        if(((buf[_nals[i].offfset] >> rsh) & mark) == pps // pps
+                && ((buf[_nals[i-1].offfset] >> rsh) & mark) == sps) // sps
+        {
+            if (is264 == false)
+            {
+                 if (i >= 2
+                         && ((buf[_nals[i-2].offfset] >> rsh & mark) == HEVCVPS))
+                 {
+                     uint32_t o = _nals[i].offfset+_nals[i].len;
+                     len =  o - _nals[i-2].offfset;
+                     offset = _nals[i-2].offfset;
+                 }
+            }
+            else
+            {
+            uint32_t o = _nals[i].offfset+_nals[i].len;
+            len =  o - _nals[i-1].offfset;
+            offset = _nals[i-1].offfset;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,144 @@
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-21_12-44-29	[Level]:0
+[Description]:load module[./profile.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-21_12-44-29	[Level]:0
+[Description]:load module[./stream.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-21_12-44-30	[Level]:0
+[Description]:load module[./media.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-21_12-44-30	[Level]:0
+[Description]:load module[./libprofile.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-21_12-44-30	[Level]:0
+[Description]:load module[./libstream.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-21_12-44-30	[Level]:0
+[Description]:load module[./libmedia.so] OK
+[Module]:
+[Type]:Log	[time]:2017-07-21_12-44-30	[Level]:0
+[Description]:support hardware accelarated!
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-21_12-44-30	[Level]:0
+[Description]:load module[./libIntelCodec.so] OK
+[Module]:/root/work/src/transcode/bin/Debug/transcode
+[Type]:Log	[time]:2017-07-21_12-44-30	[Level]:0
+[Description]:load module[./libffmpeg.so] OK
+[Module]:./libffmpeg.so
+[Type]:Log	[time]:2017-07-21_12-44-32	[Level]:0
+[Description]:url:[rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01] demux open
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-42	[Level]:1
+[Description]:live transcode speed:0.690000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 71.400000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-43	[Level]:1
+[Description]:live transcode speed:0.680000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.790000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-44	[Level]:1
+[Description]:live transcode speed:0.690000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.810000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-45	[Level]:1
+[Description]:live transcode speed:0.850000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.740000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-48	[Level]:1
+[Description]:live transcode speed:0.680000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.840000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-50	[Level]:1
+[Description]:live transcode speed:0.760000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.810000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-51	[Level]:1
+[Description]:live transcode speed:0.640000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.830000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-52	[Level]:1
+[Description]:live transcode speed:0.600000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.880000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-53	[Level]:1
+[Description]:live transcode speed:0.340000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 91.920000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-54	[Level]:1
+[Description]:live transcode speed:0.630000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.790000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-55	[Level]:1
+[Description]:live transcode speed:0.530000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.840000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-56	[Level]:1
+[Description]:live transcode speed:0.540000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.810000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-57	[Level]:1
+[Description]:live transcode speed:0.590000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.840000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-58	[Level]:1
+[Description]:live transcode speed:0.900000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.820000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-44-59	[Level]:1
+[Description]:live transcode speed:0.460000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.810000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-00	[Level]:1
+[Description]:live transcode speed:0.630000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.840000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-01	[Level]:1
+[Description]:live transcode speed:0.570000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.860000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-02	[Level]:1
+[Description]:live transcode speed:0.660000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.830000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-03	[Level]:1
+[Description]:live transcode speed:0.840000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.760000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-04	[Level]:1
+[Description]:live transcode speed:0.370000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 91.270000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-05	[Level]:1
+[Description]:live transcode speed:0.630000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.830000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-06	[Level]:1
+[Description]:live transcode speed:0.820000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.810000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-07	[Level]:1
+[Description]:live transcode speed:0.380000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.870000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-08	[Level]:1
+[Description]:live transcode speed:0.780000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.800000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-10	[Level]:1
+[Description]:live transcode speed:0.540000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 89.320000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-11	[Level]:1
+[Description]:live transcode speed:0.540000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.880000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-12	[Level]:1
+[Description]:live transcode speed:0.500000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.820000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-13	[Level]:1
+[Description]:live transcode speed:0.300000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.910000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-14	[Level]:1
+[Description]:live transcode speed:0.210000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.950000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-15	[Level]:1
+[Description]:live transcode speed:0.220000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.910000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-16	[Level]:1
+[Description]:live transcode speed:0.220000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.920000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-17	[Level]:1
+[Description]:live transcode speed:0.330000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.900000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-18	[Level]:1
+[Description]:live transcode speed:0.380000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.890000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-19	[Level]:1
+[Description]:live transcode speed:0.380000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.870000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-20	[Level]:1
+[Description]:live transcode speed:0.310000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.880000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-21	[Level]:1
+[Description]:live transcode speed:0.390000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.930000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-22	[Level]:1
+[Description]:live transcode speed:0.430000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.850000.2
+[Module]:./media.so
+[Type]:Log	[time]:2017-07-21_12-45-23	[Level]:1
+[Description]:live transcode speed:0.610000.2 too slow,input:rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01 expend is 99.810000.2

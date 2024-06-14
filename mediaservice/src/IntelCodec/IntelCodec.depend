@@ -1,0 +1,465 @@
+# depslib dependency file v1.0
+1503286650 source:/root/work/git/mediaservice/src/IntelCodec/IntelVideoDecoder.cpp
+	"IntelVideoDecoder.h"
+
+1498115462 /root/work/git/mediaservice/src/IntelCodec/IntelVideoDecoder.h
+	"stdafx.h"
+
+1483008265 /root/work/git/mediaservice/src/IntelCodec/stdafx.h
+	<stdlib.h>
+	<string>
+	<dom.h>
+	<iMulitimedia.h>
+
+1461581679 /root/work/git/mediaservice/src/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1505359811 /root/work/git/mediaservice/src/inc/dump.h
+	"dom_site.h"
+
+1507875030 /root/work/git/mediaservice/src/inc/dom_site.h
+	"iProfile.h"
+
+1507882647 /root/work/git/mediaservice/src/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1507883288 /root/work/git/mediaservice/src/inc/dom_ptr.h
+	"dom_site.h"
+	"interface_imp.h"
+	"iStream.h"
+
+1507883190 /root/work/git/mediaservice/src/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1510206906 /root/work/git/mediaservice/src/inc/iStream.h
+	<stdint.h>
+	<stdarg.h>
+	<interface.h>
+
+1516087805 /root/work/git/mediaservice/src/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"iStream.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1512466580 /root/work/git/mediaservice/src/inc/MediaID.h
+	"version.h"
+
+1479975524 /root/work/git/mediaservice/src/inc/version.h
+
+1511935175 /root/work/git/mediaservice/src/inc/iProfile.h
+	<interface.h>
+
+1509939039 source:/root/work/git/mediaservice/src/IntelCodec/IntelVideoEncoder.cpp
+	"IntelVideoEncoder.h"
+	"extension_macros.h"
+
+1498115462 /root/work/git/mediaservice/src/IntelCodec/IntelVideoEncoder.h
+	"stdafx.h"
+	"mfx_samples_config.h"
+	<iostream>
+	<memory>
+	"pipeline_encode.h"
+	"pipeline_user.h"
+	"pipeline_region_encode.h"
+	<stdarg.h>
+	<string>
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/mfx_samples_config.h
+
+1482394440 /root/work/git/mediaservice/src/IntelCodec/include/pipeline_encode.h
+	"sample_defs.h"
+	"hw_device.h"
+	"sample_utils.h"
+	"sample_params.h"
+	"base_allocator.h"
+	"time_statistics.h"
+	"mfxmvc.h"
+	"mfxvideo.h"
+	"mfxvp8.h"
+	"mfxvideo++.h"
+	"mfxplugin.h"
+	"mfxplugin++.h"
+	<vector>
+	<memory>
+	"plugin_loader.h"
+	"v4l2_util.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/sample_defs.h
+	<memory.h>
+	"mfxdefs.h"
+	"vm/strings_defs.h"
+	"vm/file_defs.h"
+	"vm/time_defs.h"
+	<sdkddkver.h>
+	"vm/time_defs.h"
+	"sample_utils.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxdefs.h
+	"mfxdispatcherprefixedfunctions.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxdispatcherprefixedfunctions.h
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vm/strings_defs.h
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<string>
+	<tchar.h>
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vm/file_defs.h
+	"mfxdefs.h"
+	<stdio.h>
+	<unistd.h>
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vm/time_defs.h
+	"mfxdefs.h"
+	"mfx_itt_trace.h"
+	<windows.h>
+	<unistd.h>
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/mfx_itt_trace.h
+	<ittnotify.h>
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/sample_utils.h
+	<stdio.h>
+	<string>
+	<sstream>
+	<vector>
+	"mfxstructures.h"
+	"mfxvideo.h"
+	"mfxvideo++.h"
+	"mfxjpeg.h"
+	"mfxplugin.h"
+	"vm/strings_defs.h"
+	"vm/file_defs.h"
+	"vm/time_defs.h"
+	"vm/atomic_defs.h"
+	"sample_types.h"
+	"abstract_splitter.h"
+	"avc_bitstream.h"
+	"avc_spl.h"
+	"avc_headers.h"
+	"avc_nal_spl.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxstructures.h
+	"mfxcommon.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxcommon.h
+	"mfxdefs.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxvideo.h
+	"mfxsession.h"
+	"mfxvstructures.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxsession.h
+	"mfxcommon.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxvstructures.h
+	"mfxstructures.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxvideo++.h
+	"mfxvideo.h"
+	"mfxenc.h"
+	"mfxpak.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxenc.h
+	"mfxdefs.h"
+	"mfxvstructures.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxpak.h
+	"mfxdefs.h"
+	"mfxvstructures.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxjpeg.h
+	"mfxdefs.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxplugin.h
+	"mfxvideo.h"
+	"mfxaudio.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxaudio.h
+	"mfxsession.h"
+	"mfxastructures.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxastructures.h
+	"mfxcommon.h"
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vm/atomic_defs.h
+	"mfxdefs.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/sample_types.h
+
+1467990165 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/abstract_splitter.h
+	"mfxstructures.h"
+	"vm/strings_defs.h"
+
+1467990165 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/avc_bitstream.h
+	"mfxstructures.h"
+	"avc_structures.h"
+	"avc_headers.h"
+
+1467990165 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/avc_structures.h
+	<windows.h>
+	<string>
+	<string.h>
+	<vector>
+	"mfxstructures.h"
+
+1467990165 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/avc_headers.h
+	"avc_structures.h"
+	<vector>
+
+1467990165 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/avc_spl.h
+	<vector>
+	<list>
+	<memory>
+	"abstract_splitter.h"
+	"avc_bitstream.h"
+	"avc_headers.h"
+	"avc_nal_spl.h"
+
+1467990165 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/avc_nal_spl.h
+	<vector>
+	"mfxstructures.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/hw_device.h
+	"mfxvideo++.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/sample_params.h
+	"sample_defs.h"
+	"plugin_utils.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/plugin_utils.h
+	"sample_defs.h"
+	"sample_types.h"
+
+1467990165 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/base_allocator.h
+	<list>
+	<string.h>
+	<functional>
+	"mfxvideo.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/time_statistics.h
+	"mfxstructures.h"
+	"vm/time_defs.h"
+	"vm/strings_defs.h"
+	"math.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxmvc.h
+	"mfxdefs.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxvp8.h
+	"mfxdefs.h"
+
+1476339541 /opt/intel/mediasdk/include/mfxplugin++.h
+	"mfxplugin.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/plugin_loader.h
+	"vm/so_defs.h"
+	"sample_utils.h"
+	<iostream>
+	<iomanip>
+	<memory>
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vm/so_defs.h
+	"mfxdefs.h"
+	"strings_defs.h"
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/v4l2_util.h
+	<pthread.h>
+	<stdlib.h>
+	<va/va.h>
+	<linux/videodev2.h>
+	<errno.h>
+	<string.h>
+	<fcntl.h>
+	"sample_defs.h"
+
+1481512221 /root/work/git/mediaservice/src/IntelCodec/include/pipeline_user.h
+	"vm/so_defs.h"
+	"pipeline_encode.h"
+	"mfx_plugin_base.h"
+	"mfx_plugin_module.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/mfx_plugin_base.h
+	<mfxplugin++.h>
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/mfx_plugin_module.h
+	"mfxplugin++.h"
+
+1467990169 /root/work/git/mediaservice/src/IntelCodec/include/pipeline_region_encode.h
+	"pipeline_encode.h"
+
+1493262055 source:/root/work/git/mediaservice/src/IntelCodec/main.cpp
+	"stdafx.h"
+	"IntelVideoDecoder.h"
+	"IntelVideoEncoder.h"
+	<mfxvideo++.h>
+
+1467990169 source:/root/work/git/mediaservice/src/IntelCodec/pipeline_decode.cpp
+	"mfx_samples_config.h"
+	"sample_defs.h"
+	<tchar.h>
+	<windows.h>
+	<ctime>
+	<algorithm>
+	"pipeline_decode.h"
+	"sysmem_allocator.h"
+	"d3d_allocator.h"
+	"d3d11_allocator.h"
+	"d3d_device.h"
+	"d3d11_device.h"
+	"vaapi_allocator.h"
+	"vaapi_device.h"
+	"vaapi_utils.h"
+	"class_wayland.h"
+
+1467990169 /root/work/git/mediaservice/src/IntelCodec/include/pipeline_decode.h
+	"sample_defs.h"
+	<d3d9.h>
+	<dxva2api.h>
+	<vector>
+	"hw_device.h"
+	"decode_render.h"
+	"mfx_buffering.h"
+	<memory>
+	"sample_utils.h"
+	"sample_params.h"
+	"base_allocator.h"
+	"mfxmvc.h"
+	"mfxjpeg.h"
+	"mfxplugin.h"
+	"mfxplugin++.h"
+	"mfxvideo.h"
+	"mfxvideo++.h"
+	"plugin_loader.h"
+	"general_allocator.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/decode_render.h
+	<d3d9.h>
+	<dxva2api.h>
+	<dxva.h>
+	<windows.h>
+	"igfx_s3dcontrol.h"
+	"mfxstructures.h"
+	"mfxvideo.h"
+	"hw_device.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/mfx_buffering.h
+	<stdio.h>
+	"mfxstructures.h"
+	"vm/strings_defs.h"
+	"vm/thread_defs.h"
+	"vm/time_defs.h"
+	"vm/atomic_defs.h"
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vm/thread_defs.h
+	"mfxdefs.h"
+	"vm/strings_defs.h"
+	<windows.h>
+	<process.h>
+	<pthread.h>
+	<errno.h>
+	<sys/time.h>
+	<sys/resource.h>
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/general_allocator.h
+	"sample_utils.h"
+	"base_allocator.h"
+	<memory>
+	<map>
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/sysmem_allocator.h
+	<stdlib.h>
+	"base_allocator.h"
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/d3d_allocator.h
+	<atlbase.h>
+	<d3d9.h>
+	<dxva2api.h>
+	"base_allocator.h"
+
+1467990165 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/d3d11_allocator.h
+	"base_allocator.h"
+	<limits>
+	<stdint.h>
+	<d3d11.h>
+	<vector>
+	<map>
+
+1467990166 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/d3d_device.h
+	"hw_device.h"
+	<d3d9.h>
+	<dxva2api.h>
+	<dxva.h>
+	<windows.h>
+
+1467990165 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/d3d11_device.h
+	"sample_defs.h"
+	"hw_device.h"
+	<windows.h>
+	<d3d11.h>
+	<atlbase.h>
+	<dxgi1_2.h>
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vaapi_allocator.h
+	<stdlib.h>
+	<va/va.h>
+	<va/va_drmcommon.h>
+	"base_allocator.h"
+	"vaapi_utils.h"
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vaapi_utils.h
+	<va/va.h>
+	<va/va_drmcommon.h>
+	<xf86drm.h>
+	<xf86drmMode.h>
+	<libdrm/intel_bufmgr.h>
+	<va/va_drm.h>
+	<va/va_x11.h>
+	<xcb/dri3.h>
+	<xcb/present.h>
+	"sample_defs.h"
+	"sample_utils.h"
+	"vm/thread_defs.h"
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vaapi_device.h
+	"hw_device.h"
+	"vaapi_utils_drm.h"
+	"vaapi_utils_x11.h"
+	"vaapi_utils_android.h"
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vaapi_utils_drm.h
+	<va/va_drm.h>
+	<va/va_drmcommon.h>
+	"vaapi_utils.h"
+	"vaapi_allocator.h"
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vaapi_utils_x11.h
+	<va/va_x11.h>
+	"vaapi_utils.h"
+
+1467990167 /root/work/git/mediaservice/src/IntelCodec/sample_common/include/vaapi_utils_android.h
+	<va/va_android.h>
+	"vaapi_utils.h"
+
+1483711266 source:/root/work/git/mediaservice/src/IntelCodec/pipeline_encode.cpp
+	"mfx_samples_config.h"
+	"pipeline_encode.h"
+	"sysmem_allocator.h"
+	"d3d_allocator.h"
+	"d3d11_allocator.h"
+	"d3d_device.h"
+	"d3d11_device.h"
+	"vaapi_allocator.h"
+	"vaapi_device.h"
+	"plugin_loader.h"
+	<pthread.h>
+

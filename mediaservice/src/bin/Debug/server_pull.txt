@@ -1,0 +1,27 @@
+{
+  "input": {
+   "url_format": "gosun://%(output)",
+   "format":"gosun",
+   "option": {
+      "catch": true,
+      "segment_" : "1h",
+      "time_out_" : "5m"
+    }
+  },
+  "output": [
+    {
+      "stream": [
+        0
+      ]
+    }
+  ],
+  "template": {
+    "stream": [
+      {
+        "media": {
+          "major": "data"
+        }
+      }
+    ]
+  }
+}

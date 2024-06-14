@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="FFmpegAudioDecoder.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2324" topLine="78" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioResample.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1153" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="FFmpegVideoDecoder.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2400" topLine="86" />
+		</Cursor>
+	</File>
+	<File name="MediaType.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3601" topLine="137" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioResample.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10271" topLine="317" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12186" topLine="304" />
+		</Cursor>
+	</File>
+	<File name="MediaType.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2230" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="FFmpegMuxer.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2203" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="FFmpegVideoDecoder.h" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1149" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="FFmpegVideoScale.h" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="343" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="FFmpegDemuxer.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="27086" topLine="843" />
+		</Cursor>
+	</File>
+	<File name="FFmpegVideoEncoder.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2444" topLine="79" />
+		</Cursor>
+	</File>
+	<File name="FFmpegMuxer.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15047" topLine="474" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioEncoder.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1148" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="FFmpegOSD.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6595" topLine="271" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioEncoder.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9054" topLine="301" />
+		</Cursor>
+	</File>
+	<File name="FFmpegDemuxer.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3857" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="FFmpegVideoScale.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5791" topLine="207" />
+		</Cursor>
+	</File>
+	<File name="FFmpegAudioDecoder.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1314" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="stdafx.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="741" topLine="2" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

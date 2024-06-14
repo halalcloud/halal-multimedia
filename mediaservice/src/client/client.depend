@@ -1,0 +1,159 @@
+# depslib dependency file v1.0
+1507800693 source:/root/work/git/mediaservice/src/client/main.cpp
+	<fstream>
+	<sstream>
+	<stdlib.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<list>
+	<memory>
+	<dom.h>
+	<iStream.h>
+	<iProfile.h>
+	<iGraphBuilder.h>
+	"../src/Url.cpp"
+	<transcode.h>
+
+1461581679 /root/work/git/mediaservice/src/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1505359811 /root/work/git/mediaservice/src/inc/dump.h
+	"dom_site.h"
+
+1507875030 /root/work/git/mediaservice/src/inc/dom_site.h
+	"iProfile.h"
+
+1507882647 /root/work/git/mediaservice/src/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1507883288 /root/work/git/mediaservice/src/inc/dom_ptr.h
+	"dom_site.h"
+	"interface_imp.h"
+	"iStream.h"
+
+1507883190 /root/work/git/mediaservice/src/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1510206906 /root/work/git/mediaservice/src/inc/iStream.h
+	<stdint.h>
+	<stdarg.h>
+	<interface.h>
+
+1511935175 /root/work/git/mediaservice/src/inc/iProfile.h
+	<interface.h>
+
+1506582004 /root/work/git/mediaservice/src/inc/iGraphBuilder.h
+	<iMulitimedia.h>
+
+1516087805 /root/work/git/mediaservice/src/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"iStream.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1512466580 /root/work/git/mediaservice/src/inc/MediaID.h
+	"version.h"
+
+1479975524 /root/work/git/mediaservice/src/inc/version.h
+
+1512125979 /root/work/git/mediaservice/src/src/Url.cpp
+	<stdio.h>
+	<memory.h>
+	<ctype.h>
+	<time.h>
+	<map>
+	<string>
+	<iostream>
+	<algorithm>
+	<arpa/inet.h>
+	<dump.h>
+	"../inc/iMulitimedia.h"
+
+1480485640 /root/work/git/mediaservice/src/inc/transcode.h
+
+1499755897 source:/home/yf/Work/git/mediaservice/src/client/main.cpp
+	<fstream>
+	<sstream>
+	<stdlib.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<list>
+	<memory>
+	<dom.h>
+	<iStream.h>
+	<iProfile.h>
+	<iGraphBuilder.h>
+	"../src/Url.cpp"
+	<transcode.h>
+
+1461581679 /home/yf/Work/git/mediaservice/src/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1505359811 /home/yf/Work/git/mediaservice/src/inc/dump.h
+	"dom_site.h"
+
+1506674545 /home/yf/Work/git/mediaservice/src/inc/dom_site.h
+	"iProfile.h"
+
+1504082786 /home/yf/Work/git/mediaservice/src/inc/iProfile.h
+	<interface.h>
+
+1506763895 /home/yf/Work/git/mediaservice/src/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1506768268 /home/yf/Work/git/mediaservice/src/inc/dom_ptr.h
+	"dom_site.h"
+	"interface_imp.h"
+	"iStream.h"
+
+1503397159 /home/yf/Work/git/mediaservice/src/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1507290640 /home/yf/Work/git/mediaservice/src/inc/iStream.h
+	<stdint.h>
+	<stdarg.h>
+	<interface.h>
+
+1506582004 /home/yf/Work/git/mediaservice/src/inc/iGraphBuilder.h
+	<iMulitimedia.h>
+
+1507355590 /home/yf/Work/git/mediaservice/src/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"iStream.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1504758034 /home/yf/Work/git/mediaservice/src/inc/MediaID.h
+	"version.h"
+
+1479975524 /home/yf/Work/git/mediaservice/src/inc/version.h
+
+1507018499 /home/yf/Work/git/mediaservice/src/src/Url.cpp
+	<stdio.h>
+	<memory.h>
+	<ctype.h>
+	<time.h>
+	<map>
+	<string>
+	<iostream>
+	<algorithm>
+	<arpa/inet.h>
+	<dump.h>
+	"../inc/iMulitimedia.h"
+
+1480485640 /home/yf/Work/git/mediaservice/src/inc/transcode.h
+

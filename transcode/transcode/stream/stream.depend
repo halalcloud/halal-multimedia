@@ -1,0 +1,410 @@
+# depslib dependency file v1.0
+1482475767 source:/home/yf/Work/transcode/stream/buffer.cpp
+	"buffer.h"
+
+1476784294 /home/yf/Work/transcode/stream/buffer.h
+	"stdafx.h"
+
+1479470581 /home/yf/Work/transcode/stream/stdafx.h
+	<stdlib.h>
+	<malloc.h>
+	<sys/socket.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<netdb.h>
+	<errno.h>
+	<string>
+	<sys/epoll.h>
+	<list>
+	<dom.h>
+	<iStream.h>
+
+1461581679 /home/yf/Work/transcode/inc//dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/yf/Work/transcode/inc//dump.h
+	"dom_site.h"
+
+1482474530 /home/yf/Work/transcode/inc//dom_site.h
+	"interface.h"
+
+1482474205 /home/yf/Work/transcode/inc//interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1482463188 /home/yf/Work/transcode/inc//dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1480936989 /home/yf/Work/transcode/inc//iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/yf/Work/transcode/inc//url.h
+
+1482490010 /home/yf/Work/transcode/inc//interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1482475767 source:/home/yf/Work/transcode/stream/BufSession.cpp
+	"BufSession.h"
+	<Locker.cpp>
+
+1478250935 /home/yf/Work/transcode/stream/BufSession.h
+	<list>
+	"stdafx.h"
+	<Locker.h>
+
+1482475766 source:/home/yf/Work/transcode/stream/epoll.cpp
+	"epoll.h"
+	<auto_ptr.h>
+	<signal.h>
+
+1480938344 /home/yf/Work/transcode/stream/epoll.h
+	"stdafx.h"
+
+1482475767 source:/home/yf/Work/transcode/stream/file.cpp
+	"file.h"
+	"epoll.h"
+
+1476784321 /home/yf/Work/transcode/stream/file.h
+	"stream.h"
+
+1480937184 /home/yf/Work/transcode/stream/stream.h
+	"stdafx.h"
+
+1479470581 source:/home/yf/Work/transcode/stream/main.cpp
+	"stdafx.h"
+	"file.h"
+	"network.h"
+	"buffer.h"
+	"BufSession.h"
+	"epoll.h"
+	<signal.h>
+
+1480931095 /home/yf/Work/transcode/stream/network.h
+	"stream.h"
+
+1482475767 source:/home/yf/Work/transcode/stream/network.cpp
+	"network.h"
+	"epoll.h"
+
+1481105659 source:/home/yf/Work/transcode/stream/stream.cpp
+	"stream.h"
+
+1462259739 /home/yf/Work/transcode/src/Locker.h
+	<pthread.h>
+
+1462259739 /home/yf/Work/transcode/src//Locker.h
+	<pthread.h>
+
+1462259715 /home/yf/Work/transcode/src//Locker.cpp
+	<Locker.h>
+
+1483531078 source:/home/centos/work/src/transcode/stream/buffer.cpp
+	"buffer.h"
+
+1476784294 /home/centos/work/src/transcode/stream/buffer.h
+	"stdafx.h"
+
+1479470581 /home/centos/work/src/transcode/stream/stdafx.h
+	<stdlib.h>
+	<malloc.h>
+	<sys/socket.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<netdb.h>
+	<errno.h>
+	<string>
+	<sys/epoll.h>
+	<list>
+	<dom.h>
+	<iStream.h>
+
+1461581679 /home/centos/work/src/transcode/inc//dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/centos/work/src/transcode/inc//dump.h
+	"dom_site.h"
+
+1483508609 /home/centos/work/src/transcode/inc//dom_site.h
+	"interface.h"
+
+1482474205 /home/centos/work/src/transcode/inc//interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1483075275 /home/centos/work/src/transcode/inc//dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /home/centos/work/src/transcode/inc//iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/centos/work/src/transcode/inc//url.h
+
+1483602276 /home/centos/work/src/transcode/inc//interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1483960840 source:/home/centos/work/src/transcode/stream/BufSession.cpp
+	"BufSession.h"
+	<Locker.cpp>
+
+1483960840 /home/centos/work/src/transcode/stream/BufSession.h
+	<list>
+	"stdafx.h"
+	<Locker.h>
+
+1462259739 /home/centos/work/src/transcode/src//Locker.h
+	<pthread.h>
+
+1462259715 /home/centos/work/src/transcode/src//Locker.cpp
+	<Locker.h>
+
+1483541291 source:/home/centos/work/src/transcode/stream/epoll.cpp
+	"epoll.h"
+	<auto_ptr.h>
+	<signal.h>
+
+1483524537 /home/centos/work/src/transcode/stream/epoll.h
+	"stdafx.h"
+
+1482475767 source:/home/centos/work/src/transcode/stream/file.cpp
+	"file.h"
+	"epoll.h"
+
+1483524983 /home/centos/work/src/transcode/stream/file.h
+	"stream.h"
+
+1483525396 /home/centos/work/src/transcode/stream/stream.h
+	"stdafx.h"
+
+1483525032 source:/home/centos/work/src/transcode/stream/main.cpp
+	"stdafx.h"
+	"network.h"
+	"buffer.h"
+	"BufSession.h"
+	"epoll.h"
+	<signal.h>
+
+1483535902 /home/centos/work/src/transcode/stream/network.h
+	"stream.h"
+
+1483961442 source:/home/centos/work/src/transcode/stream/network.cpp
+	"network.h"
+	"epoll.h"
+
+1483960678 source:/home/centos/work/src/transcode/stream/stream.cpp
+	"stream.h"
+
+1483531078 source:/home/yf/Work/src/transcode/stream/buffer.cpp
+	"buffer.h"
+
+1476784294 /home/yf/Work/src/transcode/stream/buffer.h
+	"stdafx.h"
+
+1479470581 /home/yf/Work/src/transcode/stream/stdafx.h
+	<stdlib.h>
+	<malloc.h>
+	<sys/socket.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<netdb.h>
+	<errno.h>
+	<string>
+	<sys/epoll.h>
+	<list>
+	<dom.h>
+	<iStream.h>
+
+1461581679 /home/yf/Work/src/transcode/inc//dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/yf/Work/src/transcode/inc//dump.h
+	"dom_site.h"
+
+1483508609 /home/yf/Work/src/transcode/inc//dom_site.h
+	"interface.h"
+
+1482474205 /home/yf/Work/src/transcode/inc//interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1483075275 /home/yf/Work/src/transcode/inc//dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /home/yf/Work/src/transcode/inc//iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/yf/Work/src/transcode/inc//url.h
+
+1483602276 /home/yf/Work/src/transcode/inc//interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1483960840 source:/home/yf/Work/src/transcode/stream/BufSession.cpp
+	"BufSession.h"
+	<Locker.cpp>
+
+1483960840 /home/yf/Work/src/transcode/stream/BufSession.h
+	<list>
+	"stdafx.h"
+	<Locker.h>
+
+1462259739 /home/yf/Work/src/transcode/src//Locker.h
+	<pthread.h>
+
+1462259715 /home/yf/Work/src/transcode/src//Locker.cpp
+	<Locker.h>
+
+1483541291 source:/home/yf/Work/src/transcode/stream/epoll.cpp
+	"epoll.h"
+	<auto_ptr.h>
+	<signal.h>
+
+1483524537 /home/yf/Work/src/transcode/stream/epoll.h
+	"stdafx.h"
+
+1482475767 source:/home/yf/Work/src/transcode/stream/file.cpp
+	"file.h"
+	"epoll.h"
+
+1476784321 /home/yf/Work/src/transcode/stream/file.h
+	"stream.h"
+
+1483525396 /home/yf/Work/src/transcode/stream/stream.h
+	"stdafx.h"
+
+1483525032 source:/home/yf/Work/src/transcode/stream/main.cpp
+	"stdafx.h"
+	"network.h"
+	"buffer.h"
+	"BufSession.h"
+	"epoll.h"
+	<signal.h>
+
+1483535902 /home/yf/Work/src/transcode/stream/network.h
+	"stream.h"
+
+1483961442 source:/home/yf/Work/src/transcode/stream/network.cpp
+	"network.h"
+	"epoll.h"
+
+1483960678 source:/home/yf/Work/src/transcode/stream/stream.cpp
+	"stream.h"
+
+1483531078 source:/root/work/src/transcode/stream/buffer.cpp
+	"buffer.h"
+
+1476784294 /root/work/src/transcode/stream/buffer.h
+	"stdafx.h"
+
+1479470581 /root/work/src/transcode/stream/stdafx.h
+	<stdlib.h>
+	<malloc.h>
+	<sys/socket.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<netdb.h>
+	<errno.h>
+	<string>
+	<sys/epoll.h>
+	<list>
+	<dom.h>
+	<iStream.h>
+
+1461581679 /root/work/src/transcode/inc//dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /root/work/src/transcode/inc//dump.h
+	"dom_site.h"
+
+1483508609 /root/work/src/transcode/inc//dom_site.h
+	"interface.h"
+
+1482474205 /root/work/src/transcode/inc//interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1483075275 /root/work/src/transcode/inc//dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /root/work/src/transcode/inc//iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /root/work/src/transcode/inc//url.h
+
+1483602276 /root/work/src/transcode/inc//interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1484808125 source:/root/work/src/transcode/stream/BufSession.cpp
+	"BufSession.h"
+	<Locker.cpp>
+
+1483960840 /root/work/src/transcode/stream/BufSession.h
+	<list>
+	"stdafx.h"
+	<Locker.h>
+
+1462259739 /root/work/src/transcode/src//Locker.h
+	<pthread.h>
+
+1462259715 /root/work/src/transcode/src//Locker.cpp
+	<Locker.h>
+
+1483541291 source:/root/work/src/transcode/stream/epoll.cpp
+	"epoll.h"
+	<auto_ptr.h>
+	<signal.h>
+
+1483524537 /root/work/src/transcode/stream/epoll.h
+	"stdafx.h"
+
+1483525032 source:/root/work/src/transcode/stream/main.cpp
+	"stdafx.h"
+	"network.h"
+	"buffer.h"
+	"BufSession.h"
+	"epoll.h"
+	<signal.h>
+
+1483535902 /root/work/src/transcode/stream/network.h
+	"stream.h"
+
+1483525396 /root/work/src/transcode/stream/stream.h
+	"stdafx.h"
+
+1484808645 source:/root/work/src/transcode/stream/network.cpp
+	"network.h"
+	"epoll.h"
+
+1484808646 source:/root/work/src/transcode/stream/stream.cpp
+	"stream.h"
+

@@ -1,0 +1,2493 @@
+# depslib dependency file v1.0
+1482805845 source:/home/yf/Work/transcode/ffmpeg/FFmpegAudioDecoder.cpp
+	"FFmpegAudioDecoder.h"
+
+1482804043 /home/yf/Work/transcode/ffmpeg/FFmpegAudioDecoder.h
+	"stdafx.h"
+
+1482492719 /home/yf/Work/transcode/ffmpeg/stdafx.h
+	<libavutil/imgutils.h>
+	<libavutil/opt.h>
+	<libavutil/mathematics.h>
+	<libavutil/samplefmt.h>
+	<libavcodec/avcodec.h>
+	<libavformat/avformat.h>
+	<libavformat/hevc.h>
+	<libswscale/swscale.h>
+	<libswresample/swresample.h>
+	<libavutil/internal.h>
+	<libavcodec/mpeg4audio.h>
+	<libavcodec/get_bits.h>
+	<libavcodec/put_bits.h>
+	<libavfilter/avfilter.h>
+	<libavfilter/buffersink.h>
+	<libavfilter/buffersrc.h>
+	<time.h>
+	<unistd.h>
+	<string>
+	<dom.h>
+	<iMulitimedia.h>
+
+1482225178 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/attributes.h
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/macros.h
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/version.h
+	"macros.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/avconfig.h
+
+1462447199 /home/yf/Work/ThirdParty/ffSDK/src/config.h
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavcodec/avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/buffer.h
+	<stdint.h>
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/cpu.h
+	"attributes.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/channel_layout.h
+	<stdint.h>
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavcodec/version.h
+	"libavutil/version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavformat/avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavformat/version.h
+	"libavutil/version.h"
+
+1459218328 /home/yf/Work/ThirdParty/ffSDK/src/libavformat/hevc.h
+	<stdint.h>
+	"avio.h"
+
+1459218327 /home/yf/Work/ThirdParty/ffSDK/src/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libswscale/swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libswscale/version.h
+	"libavutil/version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libswresample/swresample.h
+	<stdint.h>
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libswresample/version.h
+	"libavutil/avutil.h"
+
+1459218431 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/internal.h
+	<limits.h>
+	<stdint.h>
+	<stddef.h>
+	<assert.h>
+	"config.h"
+	"attributes.h"
+	"timer.h"
+	"cpu.h"
+	"dict.h"
+	"macros.h"
+	"pixfmt.h"
+	"version.h"
+	"x86/emms.h"
+	"libm.h"
+	<crtversion.h>
+
+1459218331 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/attributes.h
+
+1467104698 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/timer.h
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+	"config.h"
+	<mach/mach_time.h>
+	"log.h"
+	"aarch64/timer.h"
+	"arm/timer.h"
+	"ppc/timer.h"
+	"x86/timer.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1459218331 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/macros.h
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/version.h
+	"macros.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/intmath.h
+	<stdint.h>
+	"config.h"
+	"attributes.h"
+	"arm/intmath.h"
+	"x86/intmath.h"
+
+1459218331 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/arm/intmath.h
+	<stdint.h>
+	"config.h"
+	"libavutil/attributes.h"
+
+1459218333 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/x86/intmath.h
+	<stdint.h>
+	<stdlib.h>
+	<intrin.h>
+	<immintrin.h>
+	"config.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1459218331 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/aarch64/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218331 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/arm/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/ppc/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218333 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/x86/timer.h
+	<stdint.h>
+	<intrin.h>
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/cpu.h
+	"attributes.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1459218333 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/x86/emms.h
+	"config.h"
+	"libavutil/attributes.h"
+	"libavutil/cpu.h"
+	<mmintrin.h>
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/libm.h
+	<math.h>
+	"config.h"
+	"attributes.h"
+	"intfloat.h"
+	"mathematics.h"
+	"libavutil/mips/libm_mips.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/mips/libm_mips.h
+
+1459218318 /home/yf/Work/ThirdParty/ffSDK/src/libavcodec/mpeg4audio.h
+	<stdint.h>
+	"get_bits.h"
+	"put_bits.h"
+
+1459218315 /home/yf/Work/ThirdParty/ffSDK/src/libavcodec/get_bits.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/intreadwrite.h"
+	"libavutil/log.h"
+	"libavutil/avassert.h"
+	"mathops.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/intreadwrite.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"bswap.h"
+	"config.h"
+	"arm/intreadwrite.h"
+	"avr32/intreadwrite.h"
+	"mips/intreadwrite.h"
+	"ppc/intreadwrite.h"
+	"tomi/intreadwrite.h"
+	"x86/intreadwrite.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/bswap.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"config.h"
+	"aarch64/bswap.h"
+	"arm/bswap.h"
+	"avr32/bswap.h"
+	"sh4/bswap.h"
+	"x86/bswap.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavutil/avassert.h
+	<stdlib.h>
+	"avutil.h"
+	"log.h"
+
+1459218317 /home/yf/Work/ThirdParty/ffSDK/src/libavcodec/mathops.h
+	<stdint.h>
+	"libavutil/common.h"
+	"config.h"
+	"arm/mathops.h"
+	"avr32/mathops.h"
+	"mips/mathops.h"
+	"ppc/mathops.h"
+	"x86/mathops.h"
+
+1459218311 /home/yf/Work/ThirdParty/ffSDK/src/libavcodec/arm/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218311 /home/yf/Work/ThirdParty/ffSDK/src/libavcodec/avr32/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218318 /home/yf/Work/ThirdParty/ffSDK/src/libavcodec/mips/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218321 /home/yf/Work/ThirdParty/ffSDK/src/libavcodec/ppc/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218325 /home/yf/Work/ThirdParty/ffSDK/src/libavcodec/x86/mathops.h
+	"config.h"
+	"libavutil/common.h"
+	"libavutil/x86/asm.h"
+
+1459218332 /home/yf/Work/ThirdParty/ffSDK/src/libavutil/x86/asm.h
+	<stdint.h>
+	"config.h"
+
+1459218321 /home/yf/Work/ThirdParty/ffSDK/src/libavcodec/put_bits.h
+	<stdint.h>
+	<stddef.h>
+	"libavutil/intreadwrite.h"
+	"libavutil/avassert.h"
+
+1461581679 /home/yf/Work/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/yf/Work/transcode/inc/dump.h
+	"dom_site.h"
+
+1482474530 /home/yf/Work/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /home/yf/Work/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1482463188 /home/yf/Work/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1480936989 /home/yf/Work/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/yf/Work/transcode/inc/url.h
+
+1482490010 /home/yf/Work/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1482808918 /home/yf/Work/transcode/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1481881759 /home/yf/Work/transcode/inc/MediaID.h
+	"version.h"
+
+1477380274 /home/yf/Work/transcode/inc/iProfile.h
+	<interface.h>
+
+1482804043 source:/home/yf/Work/transcode/ffmpeg/FFmpegAudioEncoder.cpp
+	"FFmpegAudioEncoder.h"
+
+1482804043 /home/yf/Work/transcode/ffmpeg/FFmpegAudioEncoder.h
+	"stdafx.h"
+
+1482809969 source:/home/yf/Work/transcode/ffmpeg/FFmpegAudioResample.cpp
+	"FFmpegAudioResample.h"
+
+1482804043 /home/yf/Work/transcode/ffmpeg/FFmpegAudioResample.h
+	"stdafx.h"
+
+1482806762 source:/home/yf/Work/transcode/ffmpeg/FFmpegDemuxer.cpp
+	"FFmpegDemuxer.h"
+
+1482804043 /home/yf/Work/transcode/ffmpeg/FFmpegDemuxer.h
+	"stdafx.h"
+
+1482810551 source:/home/yf/Work/transcode/ffmpeg/FFmpegMuxer.cpp
+	"FFmpegMuxer.h"
+	"../src/Url.cpp"
+
+1482487692 /home/yf/Work/transcode/ffmpeg/FFmpegMuxer.h
+	"stdafx.h"
+	<list>
+	<vector>
+	<memory>
+
+1479722238 /home/yf/Work/transcode/src/Url.cpp
+	<ctype.h>
+	<string>
+	<iostream>
+	<algorithm>
+	"../inc/url.h"
+
+1482807792 source:/home/yf/Work/transcode/ffmpeg/FFmpegVideoDecoder.cpp
+	"FFmpegVideoDecoder.h"
+
+1482804043 /home/yf/Work/transcode/ffmpeg/FFmpegVideoDecoder.h
+	"stdafx.h"
+
+1482806874 source:/home/yf/Work/transcode/ffmpeg/FFmpegVideoEncoder.cpp
+	"FFmpegVideoEncoder.h"
+
+1482804044 /home/yf/Work/transcode/ffmpeg/FFmpegVideoEncoder.h
+	"stdafx.h"
+
+1482809518 source:/home/yf/Work/transcode/ffmpeg/FFmpegVideoScale.cpp
+	"FFmpegVideoScale.h"
+
+1482806533 /home/yf/Work/transcode/ffmpeg/FFmpegVideoScale.h
+	"stdafx.h"
+
+1482379912 source:/home/yf/Work/transcode/ffmpeg/main.cpp
+	"stdafx.h"
+	<stdlib.h>
+	"MediaType.h"
+	"FFmpegDemuxer.h"
+	"FFmpegMuxer.h"
+	"FFmpegAudioDecoder.h"
+	"FFmpegAudioEncoder.h"
+	"FFmpegVideoDecoder.h"
+	"FFmpegVideoEncoder.h"
+	"FFmpegAudioResample.h"
+	"FFmpegVideoScale.h"
+	"FFmpegOSD.h"
+
+1482311202 /home/yf/Work/transcode/ffmpeg/MediaType.h
+	"stdafx.h"
+	<iProfile.h>
+
+1482475766 source:/home/yf/Work/transcode/ffmpeg/MediaType.cpp
+	"MediaType.h"
+
+1482806831 source:/home/yf/Work/transcode/ffmpeg/FFmpegOSD.cpp
+	"FFmpegOSD.h"
+
+1482804044 /home/yf/Work/transcode/ffmpeg/FFmpegOSD.h
+	"stdafx.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavfilter/avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavfilter/version.h
+	"libavutil/version.h"
+
+1472022062 /home/yf/Work/ThirdParty/ffSDK/include/libavfilter/avfiltergraph.h
+	"avfilter.h"
+	"libavutil/log.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavfilter/buffersink.h
+	"avfilter.h"
+
+1479453651 /home/yf/Work/ThirdParty/ffSDK/include/libavfilter/buffersrc.h
+	"libavcodec/avcodec.h"
+	"avfilter.h"
+
+1479975524 /home/yf/Work/transcode/inc/version.h
+
+1483933317 source:/home/centos/work/src/transcode/ffmpeg/FFmpegAudioDecoder.cpp
+	"FFmpegAudioDecoder.h"
+
+1483933270 /home/centos/work/src/transcode/ffmpeg/FFmpegAudioDecoder.h
+	"stdafx.h"
+
+1484109099 /home/centos/work/src/transcode/ffmpeg/stdafx.h
+	<libavutil/imgutils.h>
+	<libavutil/opt.h>
+	<libavutil/mathematics.h>
+	<libavutil/samplefmt.h>
+	<libavcodec/avcodec.h>
+	<libavformat/avformat.h>
+	<libavformat/hevc.h>
+	<libswscale/swscale.h>
+	<libswresample/swresample.h>
+	<libavutil/internal.h>
+	<libavcodec/mpeg4audio.h>
+	<libavcodec/get_bits.h>
+	<libavcodec/put_bits.h>
+	<libavfilter/avfilter.h>
+	<libavfilter/buffersink.h>
+	<libavfilter/buffersrc.h>
+	<unistd.h>
+	<string>
+	<dom.h>
+	<iMulitimedia.h>
+	<time_expend.h>
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/attributes.h
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/macros.h
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/version.h
+	"macros.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/avconfig.h
+
+1462447199 /home/centos/work/src/ThirdParty/ffSDK/src/config.h
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavcodec/avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/buffer.h
+	<stdint.h>
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/cpu.h
+	"attributes.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/channel_layout.h
+	<stdint.h>
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavcodec/version.h
+	"libavutil/version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavformat/avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavformat/version.h
+	"libavutil/version.h"
+
+1459218328 /home/centos/work/src/ThirdParty/ffSDK/src/libavformat/hevc.h
+	<stdint.h>
+	"avio.h"
+
+1459218327 /home/centos/work/src/ThirdParty/ffSDK/src/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libswscale/swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libswscale/version.h
+	"libavutil/version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libswresample/swresample.h
+	<stdint.h>
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libswresample/version.h
+	"libavutil/avutil.h"
+
+1459218431 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/internal.h
+	<limits.h>
+	<stdint.h>
+	<stddef.h>
+	<assert.h>
+	"config.h"
+	"attributes.h"
+	"timer.h"
+	"cpu.h"
+	"dict.h"
+	"macros.h"
+	"pixfmt.h"
+	"version.h"
+	"x86/emms.h"
+	"libm.h"
+	<crtversion.h>
+
+1459218331 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/attributes.h
+
+1467104698 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/timer.h
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+	"config.h"
+	<mach/mach_time.h>
+	"log.h"
+	"aarch64/timer.h"
+	"arm/timer.h"
+	"ppc/timer.h"
+	"x86/timer.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1459218331 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/macros.h
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/version.h
+	"macros.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/intmath.h
+	<stdint.h>
+	"config.h"
+	"attributes.h"
+	"arm/intmath.h"
+	"x86/intmath.h"
+
+1459218331 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/arm/intmath.h
+	<stdint.h>
+	"config.h"
+	"libavutil/attributes.h"
+
+1459218333 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/x86/intmath.h
+	<stdint.h>
+	<stdlib.h>
+	<intrin.h>
+	<immintrin.h>
+	"config.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1459218331 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/aarch64/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218331 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/arm/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/ppc/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218333 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/x86/timer.h
+	<stdint.h>
+	<intrin.h>
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/cpu.h
+	"attributes.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1459218333 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/x86/emms.h
+	"config.h"
+	"libavutil/attributes.h"
+	"libavutil/cpu.h"
+	<mmintrin.h>
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/libm.h
+	<math.h>
+	"config.h"
+	"attributes.h"
+	"intfloat.h"
+	"mathematics.h"
+	"libavutil/mips/libm_mips.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/mips/libm_mips.h
+
+1459218318 /home/centos/work/src/ThirdParty/ffSDK/src/libavcodec/mpeg4audio.h
+	<stdint.h>
+	"get_bits.h"
+	"put_bits.h"
+
+1459218315 /home/centos/work/src/ThirdParty/ffSDK/src/libavcodec/get_bits.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/intreadwrite.h"
+	"libavutil/log.h"
+	"libavutil/avassert.h"
+	"mathops.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/intreadwrite.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"bswap.h"
+	"config.h"
+	"arm/intreadwrite.h"
+	"avr32/intreadwrite.h"
+	"mips/intreadwrite.h"
+	"ppc/intreadwrite.h"
+	"tomi/intreadwrite.h"
+	"x86/intreadwrite.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/bswap.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"config.h"
+	"aarch64/bswap.h"
+	"arm/bswap.h"
+	"avr32/bswap.h"
+	"sh4/bswap.h"
+	"x86/bswap.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavutil/avassert.h
+	<stdlib.h>
+	"avutil.h"
+	"log.h"
+
+1459218317 /home/centos/work/src/ThirdParty/ffSDK/src/libavcodec/mathops.h
+	<stdint.h>
+	"libavutil/common.h"
+	"config.h"
+	"arm/mathops.h"
+	"avr32/mathops.h"
+	"mips/mathops.h"
+	"ppc/mathops.h"
+	"x86/mathops.h"
+
+1459218311 /home/centos/work/src/ThirdParty/ffSDK/src/libavcodec/arm/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218311 /home/centos/work/src/ThirdParty/ffSDK/src/libavcodec/avr32/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218318 /home/centos/work/src/ThirdParty/ffSDK/src/libavcodec/mips/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218321 /home/centos/work/src/ThirdParty/ffSDK/src/libavcodec/ppc/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218325 /home/centos/work/src/ThirdParty/ffSDK/src/libavcodec/x86/mathops.h
+	"config.h"
+	"libavutil/common.h"
+	"libavutil/x86/asm.h"
+
+1459218332 /home/centos/work/src/ThirdParty/ffSDK/src/libavutil/x86/asm.h
+	<stdint.h>
+	"config.h"
+
+1459218321 /home/centos/work/src/ThirdParty/ffSDK/src/libavcodec/put_bits.h
+	<stdint.h>
+	<stddef.h>
+	"libavutil/intreadwrite.h"
+	"libavutil/avassert.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavfilter/avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavfilter/version.h
+	"libavutil/version.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavfilter/buffersink.h
+	"avfilter.h"
+
+1479453651 /home/centos/work/src/ThirdParty/ffSDK/include/libavfilter/buffersrc.h
+	"libavcodec/avcodec.h"
+	"avfilter.h"
+
+1461581679 /home/centos/work/src/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/centos/work/src/transcode/inc/dump.h
+	"dom_site.h"
+
+1483508609 /home/centos/work/src/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /home/centos/work/src/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1483075275 /home/centos/work/src/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /home/centos/work/src/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/centos/work/src/transcode/inc/url.h
+
+1483602276 /home/centos/work/src/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1483929152 /home/centos/work/src/transcode/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1481881759 /home/centos/work/src/transcode/inc/MediaID.h
+	"version.h"
+
+1479975524 /home/centos/work/src/transcode/inc/version.h
+
+1477380274 /home/centos/work/src/transcode/inc/iProfile.h
+	<interface.h>
+
+1484122634 source:/home/centos/work/src/transcode/ffmpeg/FFmpegAudioEncoder.cpp
+	"FFmpegAudioEncoder.h"
+
+1483933270 /home/centos/work/src/transcode/ffmpeg/FFmpegAudioEncoder.h
+	"stdafx.h"
+
+1483956896 source:/home/centos/work/src/transcode/ffmpeg/FFmpegAudioResample.cpp
+	"FFmpegAudioResample.h"
+
+1483933270 /home/centos/work/src/transcode/ffmpeg/FFmpegAudioResample.h
+	"stdafx.h"
+
+1484109099 source:/home/centos/work/src/transcode/ffmpeg/FFmpegDemuxer.cpp
+	"FFmpegDemuxer.h"
+
+1484109099 /home/centos/work/src/transcode/ffmpeg/FFmpegDemuxer.h
+	"stdafx.h"
+
+1484718270 source:/home/centos/work/src/transcode/ffmpeg/FFmpegMuxer.cpp
+	"FFmpegMuxer.h"
+	"../src/Url.cpp"
+
+1484109295 /home/centos/work/src/transcode/ffmpeg/FFmpegMuxer.h
+	"stdafx.h"
+	<list>
+	<vector>
+	<memory>
+
+1479722238 /home/centos/work/src/transcode/src/Url.cpp
+	<ctype.h>
+	<string>
+	<iostream>
+	<algorithm>
+	"../inc/url.h"
+
+1483939007 source:/home/centos/work/src/transcode/ffmpeg/FFmpegOSD.cpp
+	"FFmpegOSD.h"
+
+1483933270 /home/centos/work/src/transcode/ffmpeg/FFmpegOSD.h
+	"stdafx.h"
+
+1483939061 source:/home/centos/work/src/transcode/ffmpeg/FFmpegVideoDecoder.cpp
+	"FFmpegVideoDecoder.h"
+
+1483933270 /home/centos/work/src/transcode/ffmpeg/FFmpegVideoDecoder.h
+	"stdafx.h"
+
+1483939080 source:/home/centos/work/src/transcode/ffmpeg/FFmpegVideoEncoder.cpp
+	"FFmpegVideoEncoder.h"
+
+1483933270 /home/centos/work/src/transcode/ffmpeg/FFmpegVideoEncoder.h
+	"stdafx.h"
+
+1483949424 source:/home/centos/work/src/transcode/ffmpeg/FFmpegVideoScale.cpp
+	"FFmpegVideoScale.h"
+
+1483939231 /home/centos/work/src/transcode/ffmpeg/FFmpegVideoScale.h
+	"stdafx.h"
+
+1484109099 source:/home/centos/work/src/transcode/ffmpeg/main.cpp
+	"stdafx.h"
+	<stdlib.h>
+	"MediaType.h"
+	"FFmpegDemuxer.h"
+	"FFmpegMuxer.h"
+	"FFmpegAudioDecoder.h"
+	"FFmpegAudioEncoder.h"
+	"FFmpegVideoDecoder.h"
+	"FFmpegVideoEncoder.h"
+	"FFmpegAudioResample.h"
+	"FFmpegVideoScale.h"
+	"FFmpegOSD.h"
+	<time_expend.cpp>
+
+1483278614 /home/centos/work/src/transcode/ffmpeg/MediaType.h
+	"stdafx.h"
+	<iProfile.h>
+
+1483948253 source:/home/centos/work/src/transcode/ffmpeg/MediaType.cpp
+	"MediaType.h"
+
+1483933317 source:/home/yf/Work/src/transcode/ffmpeg/FFmpegAudioDecoder.cpp
+	"FFmpegAudioDecoder.h"
+
+1483933270 /home/yf/Work/src/transcode/ffmpeg/FFmpegAudioDecoder.h
+	"stdafx.h"
+
+1484109099 /home/yf/Work/src/transcode/ffmpeg/stdafx.h
+	<libavutil/imgutils.h>
+	<libavutil/opt.h>
+	<libavutil/mathematics.h>
+	<libavutil/samplefmt.h>
+	<libavcodec/avcodec.h>
+	<libavformat/avformat.h>
+	<libavformat/hevc.h>
+	<libswscale/swscale.h>
+	<libswresample/swresample.h>
+	<libavutil/internal.h>
+	<libavcodec/mpeg4audio.h>
+	<libavcodec/get_bits.h>
+	<libavcodec/put_bits.h>
+	<libavfilter/avfilter.h>
+	<libavfilter/buffersink.h>
+	<libavfilter/buffersrc.h>
+	<unistd.h>
+	<string>
+	<dom.h>
+	<iMulitimedia.h>
+	<time_expend.h>
+
+1482225178 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/attributes.h
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/macros.h
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/version.h
+	"macros.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/avconfig.h
+
+1462447199 /home/yf/Work/src/ThirdParty/ffSDK/src/config.h
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavcodec/avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/buffer.h
+	<stdint.h>
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/cpu.h
+	"attributes.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/channel_layout.h
+	<stdint.h>
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavcodec/version.h
+	"libavutil/version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavformat/avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavformat/version.h
+	"libavutil/version.h"
+
+1459218328 /home/yf/Work/src/ThirdParty/ffSDK/src/libavformat/hevc.h
+	<stdint.h>
+	"avio.h"
+
+1459218327 /home/yf/Work/src/ThirdParty/ffSDK/src/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libswscale/swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libswscale/version.h
+	"libavutil/version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libswresample/swresample.h
+	<stdint.h>
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libswresample/version.h
+	"libavutil/avutil.h"
+
+1459218431 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/internal.h
+	<limits.h>
+	<stdint.h>
+	<stddef.h>
+	<assert.h>
+	"config.h"
+	"attributes.h"
+	"timer.h"
+	"cpu.h"
+	"dict.h"
+	"macros.h"
+	"pixfmt.h"
+	"version.h"
+	"x86/emms.h"
+	"libm.h"
+	<crtversion.h>
+
+1459218331 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/attributes.h
+
+1467104698 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/timer.h
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+	"config.h"
+	<mach/mach_time.h>
+	"log.h"
+	"aarch64/timer.h"
+	"arm/timer.h"
+	"ppc/timer.h"
+	"x86/timer.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1459218331 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/macros.h
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/version.h
+	"macros.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/intmath.h
+	<stdint.h>
+	"config.h"
+	"attributes.h"
+	"arm/intmath.h"
+	"x86/intmath.h"
+
+1459218331 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/arm/intmath.h
+	<stdint.h>
+	"config.h"
+	"libavutil/attributes.h"
+
+1459218333 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/x86/intmath.h
+	<stdint.h>
+	<stdlib.h>
+	<intrin.h>
+	<immintrin.h>
+	"config.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1459218331 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/aarch64/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218331 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/arm/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/ppc/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218333 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/x86/timer.h
+	<stdint.h>
+	<intrin.h>
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/cpu.h
+	"attributes.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1459218333 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/x86/emms.h
+	"config.h"
+	"libavutil/attributes.h"
+	"libavutil/cpu.h"
+	<mmintrin.h>
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/libm.h
+	<math.h>
+	"config.h"
+	"attributes.h"
+	"intfloat.h"
+	"mathematics.h"
+	"libavutil/mips/libm_mips.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/mips/libm_mips.h
+
+1459218318 /home/yf/Work/src/ThirdParty/ffSDK/src/libavcodec/mpeg4audio.h
+	<stdint.h>
+	"get_bits.h"
+	"put_bits.h"
+
+1459218315 /home/yf/Work/src/ThirdParty/ffSDK/src/libavcodec/get_bits.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/intreadwrite.h"
+	"libavutil/log.h"
+	"libavutil/avassert.h"
+	"mathops.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/intreadwrite.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"bswap.h"
+	"config.h"
+	"arm/intreadwrite.h"
+	"avr32/intreadwrite.h"
+	"mips/intreadwrite.h"
+	"ppc/intreadwrite.h"
+	"tomi/intreadwrite.h"
+	"x86/intreadwrite.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/bswap.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"config.h"
+	"aarch64/bswap.h"
+	"arm/bswap.h"
+	"avr32/bswap.h"
+	"sh4/bswap.h"
+	"x86/bswap.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavutil/avassert.h
+	<stdlib.h>
+	"avutil.h"
+	"log.h"
+
+1459218317 /home/yf/Work/src/ThirdParty/ffSDK/src/libavcodec/mathops.h
+	<stdint.h>
+	"libavutil/common.h"
+	"config.h"
+	"arm/mathops.h"
+	"avr32/mathops.h"
+	"mips/mathops.h"
+	"ppc/mathops.h"
+	"x86/mathops.h"
+
+1459218311 /home/yf/Work/src/ThirdParty/ffSDK/src/libavcodec/arm/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218311 /home/yf/Work/src/ThirdParty/ffSDK/src/libavcodec/avr32/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218318 /home/yf/Work/src/ThirdParty/ffSDK/src/libavcodec/mips/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218321 /home/yf/Work/src/ThirdParty/ffSDK/src/libavcodec/ppc/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218325 /home/yf/Work/src/ThirdParty/ffSDK/src/libavcodec/x86/mathops.h
+	"config.h"
+	"libavutil/common.h"
+	"libavutil/x86/asm.h"
+
+1459218332 /home/yf/Work/src/ThirdParty/ffSDK/src/libavutil/x86/asm.h
+	<stdint.h>
+	"config.h"
+
+1459218321 /home/yf/Work/src/ThirdParty/ffSDK/src/libavcodec/put_bits.h
+	<stdint.h>
+	<stddef.h>
+	"libavutil/intreadwrite.h"
+	"libavutil/avassert.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavfilter/avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavfilter/version.h
+	"libavutil/version.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavfilter/buffersink.h
+	"avfilter.h"
+
+1479453651 /home/yf/Work/src/ThirdParty/ffSDK/include/libavfilter/buffersrc.h
+	"libavcodec/avcodec.h"
+	"avfilter.h"
+
+1461581679 /home/yf/Work/src/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/yf/Work/src/transcode/inc/dump.h
+	"dom_site.h"
+
+1483508609 /home/yf/Work/src/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /home/yf/Work/src/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1483075275 /home/yf/Work/src/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /home/yf/Work/src/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/yf/Work/src/transcode/inc/url.h
+
+1483602276 /home/yf/Work/src/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1483929152 /home/yf/Work/src/transcode/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1481881759 /home/yf/Work/src/transcode/inc/MediaID.h
+	"version.h"
+
+1479975524 /home/yf/Work/src/transcode/inc/version.h
+
+1477380274 /home/yf/Work/src/transcode/inc/iProfile.h
+	<interface.h>
+
+1484122634 source:/home/yf/Work/src/transcode/ffmpeg/FFmpegAudioEncoder.cpp
+	"FFmpegAudioEncoder.h"
+
+1483933270 /home/yf/Work/src/transcode/ffmpeg/FFmpegAudioEncoder.h
+	"stdafx.h"
+
+1483956896 source:/home/yf/Work/src/transcode/ffmpeg/FFmpegAudioResample.cpp
+	"FFmpegAudioResample.h"
+
+1483933270 /home/yf/Work/src/transcode/ffmpeg/FFmpegAudioResample.h
+	"stdafx.h"
+
+1484109099 source:/home/yf/Work/src/transcode/ffmpeg/FFmpegDemuxer.cpp
+	"FFmpegDemuxer.h"
+
+1484109099 /home/yf/Work/src/transcode/ffmpeg/FFmpegDemuxer.h
+	"stdafx.h"
+
+1484203762 source:/home/yf/Work/src/transcode/ffmpeg/FFmpegMuxer.cpp
+	"FFmpegMuxer.h"
+	"../src/Url.cpp"
+
+1484109295 /home/yf/Work/src/transcode/ffmpeg/FFmpegMuxer.h
+	"stdafx.h"
+	<list>
+	<vector>
+	<memory>
+
+1479722238 /home/yf/Work/src/transcode/src/Url.cpp
+	<ctype.h>
+	<string>
+	<iostream>
+	<algorithm>
+	"../inc/url.h"
+
+1483939007 source:/home/yf/Work/src/transcode/ffmpeg/FFmpegOSD.cpp
+	"FFmpegOSD.h"
+
+1483933270 /home/yf/Work/src/transcode/ffmpeg/FFmpegOSD.h
+	"stdafx.h"
+
+1483939061 source:/home/yf/Work/src/transcode/ffmpeg/FFmpegVideoDecoder.cpp
+	"FFmpegVideoDecoder.h"
+
+1483933270 /home/yf/Work/src/transcode/ffmpeg/FFmpegVideoDecoder.h
+	"stdafx.h"
+
+1483939080 source:/home/yf/Work/src/transcode/ffmpeg/FFmpegVideoEncoder.cpp
+	"FFmpegVideoEncoder.h"
+
+1483933270 /home/yf/Work/src/transcode/ffmpeg/FFmpegVideoEncoder.h
+	"stdafx.h"
+
+1483949424 source:/home/yf/Work/src/transcode/ffmpeg/FFmpegVideoScale.cpp
+	"FFmpegVideoScale.h"
+
+1483939231 /home/yf/Work/src/transcode/ffmpeg/FFmpegVideoScale.h
+	"stdafx.h"
+
+1484109099 source:/home/yf/Work/src/transcode/ffmpeg/main.cpp
+	"stdafx.h"
+	<stdlib.h>
+	"MediaType.h"
+	"FFmpegDemuxer.h"
+	"FFmpegMuxer.h"
+	"FFmpegAudioDecoder.h"
+	"FFmpegAudioEncoder.h"
+	"FFmpegVideoDecoder.h"
+	"FFmpegVideoEncoder.h"
+	"FFmpegAudioResample.h"
+	"FFmpegVideoScale.h"
+	"FFmpegOSD.h"
+	<time_expend.cpp>
+
+1483278614 /home/yf/Work/src/transcode/ffmpeg/MediaType.h
+	"stdafx.h"
+	<iProfile.h>
+
+1483948253 source:/home/yf/Work/src/transcode/ffmpeg/MediaType.cpp
+	"MediaType.h"
+
+1484104993 /home/centos/work/src/transcode/inc/time_expend.h
+
+1484105039 /home/centos/work/src/transcode/src/time_expend.cpp
+	<time.h>
+	<stdlib.h>
+	<time_expend.h>
+
+1484104993 /home/yf/Work/src/transcode/inc/time_expend.h
+
+1484105039 /home/yf/Work/src/transcode/src/time_expend.cpp
+	<time.h>
+	<stdlib.h>
+	<time_expend.h>
+
+1485057527 source:/root/work/src/transcode/ffmpeg/FFmpegAudioDecoder.cpp
+	"FFmpegAudioDecoder.h"
+
+1485153150 /root/work/src/transcode/ffmpeg/FFmpegAudioDecoder.h
+	"stdafx.h"
+
+1485057527 /root/work/src/transcode/ffmpeg/stdafx.h
+	<libavutil/imgutils.h>
+	<libavutil/opt.h>
+	<libavutil/mathematics.h>
+	<libavutil/samplefmt.h>
+	<libavcodec/avcodec.h>
+	<libavformat/avformat.h>
+	<libavformat/hevc.h>
+	<libswscale/swscale.h>
+	<libswresample/swresample.h>
+	<libavutil/internal.h>
+	<libavcodec/mpeg4audio.h>
+	<libavcodec/get_bits.h>
+	<libavcodec/put_bits.h>
+	<libavfilter/avfilter.h>
+	<libavfilter/buffersink.h>
+	<libavfilter/buffersrc.h>
+	<unistd.h>
+	<string>
+	<dom.h>
+	<iMulitimedia.h>
+	<time_expend.h>
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/attributes.h
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/macros.h
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/version.h
+	"macros.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/avconfig.h
+
+1462447199 /root/work/src/ThirdParty/ffSDK/src/config.h
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavcodec/avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/buffer.h
+	<stdint.h>
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/cpu.h
+	"attributes.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/channel_layout.h
+	<stdint.h>
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavcodec/version.h
+	"libavutil/version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavformat/avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavformat/version.h
+	"libavutil/version.h"
+
+1459218328 /root/work/src/ThirdParty/ffSDK/src/libavformat/hevc.h
+	<stdint.h>
+	"avio.h"
+
+1459218327 /root/work/src/ThirdParty/ffSDK/src/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libswscale/swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libswscale/version.h
+	"libavutil/version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libswresample/swresample.h
+	<stdint.h>
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libswresample/version.h
+	"libavutil/avutil.h"
+
+1459218431 /root/work/src/ThirdParty/ffSDK/src/libavutil/internal.h
+	<limits.h>
+	<stdint.h>
+	<stddef.h>
+	<assert.h>
+	"config.h"
+	"attributes.h"
+	"timer.h"
+	"cpu.h"
+	"dict.h"
+	"macros.h"
+	"pixfmt.h"
+	"version.h"
+	"x86/emms.h"
+	"libm.h"
+	<crtversion.h>
+
+1459218331 /root/work/src/ThirdParty/ffSDK/src/libavutil/attributes.h
+
+1467104698 /root/work/src/ThirdParty/ffSDK/src/libavutil/timer.h
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+	"config.h"
+	<mach/mach_time.h>
+	"log.h"
+	"aarch64/timer.h"
+	"arm/timer.h"
+	"ppc/timer.h"
+	"x86/timer.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1459218331 /root/work/src/ThirdParty/ffSDK/src/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/macros.h
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/version.h
+	"macros.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/intmath.h
+	<stdint.h>
+	"config.h"
+	"attributes.h"
+	"arm/intmath.h"
+	"x86/intmath.h"
+
+1459218331 /root/work/src/ThirdParty/ffSDK/src/libavutil/arm/intmath.h
+	<stdint.h>
+	"config.h"
+	"libavutil/attributes.h"
+
+1459218333 /root/work/src/ThirdParty/ffSDK/src/libavutil/x86/intmath.h
+	<stdint.h>
+	<stdlib.h>
+	<intrin.h>
+	<immintrin.h>
+	"config.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1459218331 /root/work/src/ThirdParty/ffSDK/src/libavutil/aarch64/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218331 /root/work/src/ThirdParty/ffSDK/src/libavutil/arm/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/ppc/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218333 /root/work/src/ThirdParty/ffSDK/src/libavutil/x86/timer.h
+	<stdint.h>
+	<intrin.h>
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/cpu.h
+	"attributes.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1459218333 /root/work/src/ThirdParty/ffSDK/src/libavutil/x86/emms.h
+	"config.h"
+	"libavutil/attributes.h"
+	"libavutil/cpu.h"
+	<mmintrin.h>
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/libm.h
+	<math.h>
+	"config.h"
+	"attributes.h"
+	"intfloat.h"
+	"mathematics.h"
+	"libavutil/mips/libm_mips.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/mips/libm_mips.h
+
+1459218318 /root/work/src/ThirdParty/ffSDK/src/libavcodec/mpeg4audio.h
+	<stdint.h>
+	"get_bits.h"
+	"put_bits.h"
+
+1459218315 /root/work/src/ThirdParty/ffSDK/src/libavcodec/get_bits.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/intreadwrite.h"
+	"libavutil/log.h"
+	"libavutil/avassert.h"
+	"mathops.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/intreadwrite.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"bswap.h"
+	"config.h"
+	"arm/intreadwrite.h"
+	"avr32/intreadwrite.h"
+	"mips/intreadwrite.h"
+	"ppc/intreadwrite.h"
+	"tomi/intreadwrite.h"
+	"x86/intreadwrite.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/bswap.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"config.h"
+	"aarch64/bswap.h"
+	"arm/bswap.h"
+	"avr32/bswap.h"
+	"sh4/bswap.h"
+	"x86/bswap.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavutil/avassert.h
+	<stdlib.h>
+	"avutil.h"
+	"log.h"
+
+1459218317 /root/work/src/ThirdParty/ffSDK/src/libavcodec/mathops.h
+	<stdint.h>
+	"libavutil/common.h"
+	"config.h"
+	"arm/mathops.h"
+	"avr32/mathops.h"
+	"mips/mathops.h"
+	"ppc/mathops.h"
+	"x86/mathops.h"
+
+1459218311 /root/work/src/ThirdParty/ffSDK/src/libavcodec/arm/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218311 /root/work/src/ThirdParty/ffSDK/src/libavcodec/avr32/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218318 /root/work/src/ThirdParty/ffSDK/src/libavcodec/mips/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218321 /root/work/src/ThirdParty/ffSDK/src/libavcodec/ppc/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218325 /root/work/src/ThirdParty/ffSDK/src/libavcodec/x86/mathops.h
+	"config.h"
+	"libavutil/common.h"
+	"libavutil/x86/asm.h"
+
+1459218332 /root/work/src/ThirdParty/ffSDK/src/libavutil/x86/asm.h
+	<stdint.h>
+	"config.h"
+
+1459218321 /root/work/src/ThirdParty/ffSDK/src/libavcodec/put_bits.h
+	<stdint.h>
+	<stddef.h>
+	"libavutil/intreadwrite.h"
+	"libavutil/avassert.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavfilter/avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavfilter/version.h
+	"libavutil/version.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavfilter/buffersink.h
+	"avfilter.h"
+
+1479453651 /root/work/src/ThirdParty/ffSDK/include/libavfilter/buffersrc.h
+	"libavcodec/avcodec.h"
+	"avfilter.h"
+
+1461581679 /root/work/src/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /root/work/src/transcode/inc/dump.h
+	"dom_site.h"
+
+1483508609 /root/work/src/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /root/work/src/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1483075275 /root/work/src/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /root/work/src/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /root/work/src/transcode/inc/url.h
+
+1483602276 /root/work/src/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1486620923 /root/work/src/transcode/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1481881759 /root/work/src/transcode/inc/MediaID.h
+	"version.h"
+
+1479975524 /root/work/src/transcode/inc/version.h
+
+1477380274 /root/work/src/transcode/inc/iProfile.h
+	<interface.h>
+
+1486612680 /root/work/src/transcode/inc/time_expend.h
+
+1484122634 source:/root/work/src/transcode/ffmpeg/FFmpegAudioEncoder.cpp
+	"FFmpegAudioEncoder.h"
+
+1483933270 /root/work/src/transcode/ffmpeg/FFmpegAudioEncoder.h
+	"stdafx.h"
+
+1483956896 source:/root/work/src/transcode/ffmpeg/FFmpegAudioResample.cpp
+	"FFmpegAudioResample.h"
+
+1483933270 /root/work/src/transcode/ffmpeg/FFmpegAudioResample.h
+	"stdafx.h"
+
+1500611424 source:/root/work/src/transcode/ffmpeg/FFmpegMuxer.cpp
+	"FFmpegMuxer.h"
+	"../src/Url.cpp"
+
+1484109295 /root/work/src/transcode/ffmpeg/FFmpegMuxer.h
+	"stdafx.h"
+	<list>
+	<vector>
+	<memory>
+
+1479722238 /root/work/src/transcode/src/Url.cpp
+	<ctype.h>
+	<string>
+	<iostream>
+	<algorithm>
+	"../inc/url.h"
+
+1483939007 source:/root/work/src/transcode/ffmpeg/FFmpegOSD.cpp
+	"FFmpegOSD.h"
+
+1483933270 /root/work/src/transcode/ffmpeg/FFmpegOSD.h
+	"stdafx.h"
+
+1485153057 source:/root/work/src/transcode/ffmpeg/FFmpegVideoDecoder.cpp
+	"FFmpegVideoDecoder.h"
+
+1485152425 /root/work/src/transcode/ffmpeg/FFmpegVideoDecoder.h
+	"stdafx.h"
+
+1485055250 source:/root/work/src/transcode/ffmpeg/FFmpegVideoEncoder.cpp
+	"FFmpegVideoEncoder.h"
+
+1483933270 /root/work/src/transcode/ffmpeg/FFmpegVideoEncoder.h
+	"stdafx.h"
+
+1483949424 source:/root/work/src/transcode/ffmpeg/FFmpegVideoScale.cpp
+	"FFmpegVideoScale.h"
+
+1483939231 /root/work/src/transcode/ffmpeg/FFmpegVideoScale.h
+	"stdafx.h"
+
+1485057527 source:/root/work/src/transcode/ffmpeg/main.cpp
+	"stdafx.h"
+	<stdlib.h>
+	"MediaType.h"
+	"FFmpegDemuxer.h"
+	"FFmpegMuxer.h"
+	"FFmpegAudioDecoder.h"
+	"FFmpegAudioEncoder.h"
+	"FFmpegVideoDecoder.h"
+	"FFmpegVideoEncoder.h"
+	"FFmpegAudioResample.h"
+	"FFmpegVideoScale.h"
+	"FFmpegOSD.h"
+	<time_expend.cpp>
+
+1483278614 /root/work/src/transcode/ffmpeg/MediaType.h
+	"stdafx.h"
+	<iProfile.h>
+
+1486613585 /root/work/src/transcode/ffmpeg/FFmpegDemuxer.h
+	"stdafx.h"
+
+1486612680 /root/work/src/transcode/src/time_expend.cpp
+	<time.h>
+	<stdlib.h>
+	<time_expend.h>
+
+1483948253 source:/root/work/src/transcode/ffmpeg/MediaType.cpp
+	"MediaType.h"
+
+1486627063 source:/root/work/src/transcode/ffmpeg/FFmpegDemuxer.cpp
+	"FFmpegDemuxer.h"
+

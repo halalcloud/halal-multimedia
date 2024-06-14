@@ -1,0 +1,7 @@
+transcode/ThirdParty/ffSDK/lib/
+*.a
+**/*.a
+transcode/ThirdParty/ffSDK/src/libavcodec/libavcodec.a
+transcode/ThirdParty/ffSDK/lib/libavcodec.a
+mediaservice/ThirdParty/ffSDK/lib/libavcodec.a
+transcode/ThirdParty/ffSDK/src/libavcodec/libavcodec.so.57

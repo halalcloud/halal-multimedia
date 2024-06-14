@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="OutputPin.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2584" topLine="99" />
+		</Cursor>
+	</File>
+	<File name="FilterGraph.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9634" topLine="356" />
+		</Cursor>
+	</File>
+	<File name="../inc/iGraphBuilder.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="872" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="MediaFrame.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2842" topLine="103" />
+		</Cursor>
+	</File>
+	<File name="../src/Url.cpp" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="39" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="GraphBuilder.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2494" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="OutputPin.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1354" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../inc/iMulitimedia.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13322" topLine="454" />
+		</Cursor>
+	</File>
+	<File name="InputPin.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="298" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="MediaFrame.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="881" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="857" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="GraphBuilder.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9959" topLine="282" />
+		</Cursor>
+	</File>
+	<File name="FilterGraph.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2431" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="../inc/MediaID.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="425" topLine="414" />
+		</Cursor>
+	</File>
+	<File name="stdafx.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="266" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="InputPin.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1236" topLine="56" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

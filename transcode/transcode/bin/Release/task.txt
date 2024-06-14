@@ -1,0 +1,33 @@
+{
+  "input": {
+    "source": [
+      {
+        "url": "http://ori.lunbocl.ott.cibntv.net/hls/vCIBNDYDS/1800/vCIBNDYDS.m3u8"
+      }
+    ]
+  },
+  "template": {
+    "stream": [
+      {
+        "media": {
+          "major": "video"
+        }
+      },
+      {
+        "media": {
+          "major": "audio"
+        }
+      }
+    ]
+  },
+  "output": [
+    {
+      "stream": [
+        0,1
+      ],
+      "url_format": "rtmp://101.71.40.248/live?vhost=live.test.dnsgslb.c4hcdn.com/test",
+      "option": {}
+    }
+  ]
+}
+

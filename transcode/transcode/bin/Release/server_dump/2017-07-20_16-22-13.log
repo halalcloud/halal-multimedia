@@ -1,0 +1,33 @@
+[Module]:/root/work/src/transcode/bin/Release/server
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:load module[./profile.so] OK
+[Module]:/root/work/src/transcode/bin/Release/server
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:load module[./ffmpeg.so] OK
+[Module]:/root/work/src/transcode/bin/Release/server
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:load module[./stream.so] OK
+[Module]:/root/work/src/transcode/bin/Release/server
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:load module[./media.so] OK
+[Module]:/root/work/src/transcode/bin/Release/server
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:load module[./libprofile.so] OK
+[Module]:/root/work/src/transcode/bin/Release/server
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:load module[./libstream.so] OK
+[Module]:/root/work/src/transcode/bin/Release/server
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:load module[./libmedia.so] OK
+[Module]:
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:support hardware accelarated!
+[Module]:/root/work/src/transcode/bin/Release/server
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:load module[./libIntelCodec.so] OK
+[Module]:/root/work/src/transcode/bin/Release/server
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:load module[./libffmpeg.so] OK
+[Module]:./stream.so
+[Type]:Log	[time]:2017-07-20_16-22-13	[Level]:0
+[Description]:server[9] port:1234 startup

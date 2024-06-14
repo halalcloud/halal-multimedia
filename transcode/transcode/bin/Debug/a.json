@@ -1,0 +1,72 @@
+{
+    "input": {
+        "cycle": false,
+        "source": [
+            {
+                "url": "/mnt/koumei_hougu.mp4"
+            }
+        ]
+    },
+    "output": [
+        {
+            "stream": [
+                0,
+                2
+            ],
+            "url_format": "/mnt/output.mp4"
+        }
+    ],
+    "template": {
+        "stream": [
+            {
+                "media": {
+                    "id": "hevc",
+                    "option": {
+                        "bitrate": "2m",
+                        "fps": 25,
+                        "height": 576,
+                        "ratioX": 16,
+                        "ratioY": 9,
+                        "width": 1024
+                    }
+                },
+                "transform": [
+                    {
+                        "name": "CIntelVideoEncoder",
+                        "option": {
+                            "gop_size": 25,
+                            "preset": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "media": {
+                    "major": "video",
+                    "option": {
+                        "fps": 30,
+                        "height": 480,
+                        "ratioX": 16,
+                        "ratioY": 9,
+                        "width": 720
+                    }
+                }
+            },
+            {
+                "media": {
+                    "id": "aac",
+                    "option": {
+                        "bitrate": "64k",
+                        "channels": 2,
+                        "sample_rate": 44100
+                    }
+                }
+            },
+            {
+                "media": {
+                    "major": "audio"
+                }
+            }
+        ]
+    }
+}

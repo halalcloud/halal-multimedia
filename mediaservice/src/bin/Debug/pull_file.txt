@@ -1,0 +1,28 @@
+{
+  "input": {
+    "url_format": "/home/record/vhost/capture.gosun"
+  },
+  "output": [
+    {
+      "stream": [
+        0
+      ],
+      "url_format": "sdl://localhost"
+    }
+  ],
+  "template": {
+    "stream": [
+      {
+        "media": {
+          "major": "video",
+          "option": {
+            "height": 480,
+            "ratioX": 16,
+            "ratioY": 9,
+            "width": 720
+          }
+        }
+      }
+    ]
+  }
+}

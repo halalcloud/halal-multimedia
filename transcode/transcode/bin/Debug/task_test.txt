@@ -1,0 +1,33 @@
+{
+  "input": {
+    "source": [
+      {
+        "url": "rtmp://115.231.103.123/live?vhost=rtmpplay-gs.idol001.com/korea_S01"
+      }
+    ],
+    "cycle": true
+  },
+  "template": {
+    "stream": [
+      {
+        "media": {
+          "major": "video"
+        }
+      },
+      {
+        "media": {
+          "major": "audio"
+        }
+      }
+    ]
+  },
+  "output": [
+    {
+      "stream": [
+        0,
+        1
+      ],
+      "url_format": "rtmp://111.202.93.5/live?vhost=rtmppub3.idol001.com/korea_sbsblacktest_test"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ffmpeg -re -i 1.ts -chunked_post 0 -vcodec copy -acodec copy http://127.0.0.1/live/123.ts

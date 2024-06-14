@@ -1,0 +1,769 @@
+# depslib dependency file v1.0
+1493286738 source:/root/work/git/mediaservice/src/sdl/main.cpp
+	"stdafx.h"
+	"SdlRender.h"
+
+1497581959 /root/work/git/mediaservice/src/sdl/stdafx.h
+	<stdlib.h>
+	<string>
+	<vector>
+	<time.h>
+	<memory>
+	<SDL2/SDL.h>
+	<dom.h>
+	<iMulitimedia.h>
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_config.h
+	"SDL_platform.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/begin_code.h
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/close_code.h
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /root/work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461581679 /root/work/git/mediaservice/src/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1505359811 /root/work/git/mediaservice/src/inc/dump.h
+	"dom_site.h"
+
+1507875030 /root/work/git/mediaservice/src/inc/dom_site.h
+	"iProfile.h"
+
+1507882647 /root/work/git/mediaservice/src/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1507883288 /root/work/git/mediaservice/src/inc/dom_ptr.h
+	"dom_site.h"
+	"interface_imp.h"
+	"iStream.h"
+
+1507883190 /root/work/git/mediaservice/src/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1510206906 /root/work/git/mediaservice/src/inc/iStream.h
+	<stdint.h>
+	<stdarg.h>
+	<interface.h>
+
+1516087805 /root/work/git/mediaservice/src/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"iStream.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1512466580 /root/work/git/mediaservice/src/inc/MediaID.h
+	"version.h"
+
+1479975524 /root/work/git/mediaservice/src/inc/version.h
+
+1511935175 /root/work/git/mediaservice/src/inc/iProfile.h
+	<interface.h>
+
+1505294253 /root/work/git/mediaservice/src/sdl/SdlRender.h
+	"stdafx.h"
+
+1506418459 source:/root/work/git/mediaservice/src/sdl/SdlRender.cpp
+	"SdlRender.h"
+
+1493286738 source:/home/yf/Work/git/mediaservice/src/sdl/main.cpp
+	"stdafx.h"
+	"SdlRender.h"
+
+1497581959 /home/yf/Work/git/mediaservice/src/sdl/stdafx.h
+	<stdlib.h>
+	<string>
+	<vector>
+	<time.h>
+	<memory>
+	<SDL2/SDL.h>
+	<dom.h>
+	<iMulitimedia.h>
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_config.h
+	"SDL_platform.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/begin_code.h
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/close_code.h
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1472022269 /home/yf/Work/git/mediaservice/ThirdParty/SDL2-2.0.3/include/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461581679 /home/yf/Work/git/mediaservice/src/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1505359811 /home/yf/Work/git/mediaservice/src/inc/dump.h
+	"dom_site.h"
+
+1506674545 /home/yf/Work/git/mediaservice/src/inc/dom_site.h
+	"iProfile.h"
+
+1504082786 /home/yf/Work/git/mediaservice/src/inc/iProfile.h
+	<interface.h>
+
+1506763895 /home/yf/Work/git/mediaservice/src/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1506768268 /home/yf/Work/git/mediaservice/src/inc/dom_ptr.h
+	"dom_site.h"
+	"interface_imp.h"
+	"iStream.h"
+
+1503397159 /home/yf/Work/git/mediaservice/src/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1507290640 /home/yf/Work/git/mediaservice/src/inc/iStream.h
+	<stdint.h>
+	<stdarg.h>
+	<interface.h>
+
+1507355590 /home/yf/Work/git/mediaservice/src/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"iStream.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1504758034 /home/yf/Work/git/mediaservice/src/inc/MediaID.h
+	"version.h"
+
+1479975524 /home/yf/Work/git/mediaservice/src/inc/version.h
+
+1505294253 /home/yf/Work/git/mediaservice/src/sdl/SdlRender.h
+	"stdafx.h"
+
+1506418459 source:/home/yf/Work/git/mediaservice/src/sdl/SdlRender.cpp
+	"SdlRender.h"
+

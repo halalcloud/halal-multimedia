@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="stdafx.h" open="1" top="0" tabpos="73" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="267" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="SdlRender.cpp" open="1" top="0" tabpos="75" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5593" topLine="225" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="72" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="814" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="SdlRender.h" open="1" top="0" tabpos="74" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1405" topLine="27" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

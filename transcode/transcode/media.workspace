@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="dom/dom.cbp" />
+		<Project filename="profile/profile.cbp">
+			<Depends filename="dom/dom.cbp" />
+		</Project>
+		<Project filename="ffmpeg/ffmpeg.cbp">
+			<Depends filename="dom/dom.cbp" />
+		</Project>
+		<Project filename="stream/stream.cbp">
+			<Depends filename="dom/dom.cbp" />
+		</Project>
+		<Project filename="mulitimedia/mulitimedia.cbp">
+			<Depends filename="dom/dom.cbp" />
+		</Project>
+		<Project filename="server/server.cbp">
+			<Depends filename="dom/dom.cbp" />
+			<Depends filename="profile/profile.cbp" />
+			<Depends filename="ffmpeg/ffmpeg.cbp" />
+			<Depends filename="stream/stream.cbp" />
+			<Depends filename="mulitimedia/mulitimedia.cbp" />
+		</Project>
+		<Project filename="transcode/transcode.cbp">
+			<Depends filename="dom/dom.cbp" />
+			<Depends filename="profile/profile.cbp" />
+			<Depends filename="ffmpeg/ffmpeg.cbp" />
+			<Depends filename="stream/stream.cbp" />
+			<Depends filename="mulitimedia/mulitimedia.cbp" />
+			<Depends filename="IntelCodec/IntelCodec.cbp" />
+		</Project>
+		<Project filename="IntelCodec/IntelCodec.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

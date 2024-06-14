@@ -1,0 +1,249 @@
+# depslib dependency file v1.0
+1482827237 source:/home/yf/Work/transcode/transcode/main.cpp
+	<fstream>
+	<sstream>
+	<stdlib.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<list>
+	<memory>
+	<dom.h>
+	<iStream.h>
+	<iProfile.h>
+	<iGraphBuilder.h>
+	"../src/Url.cpp"
+	<transcode.h>
+
+1461581679 /home/yf/Work/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/yf/Work/transcode/inc/dump.h
+	"dom_site.h"
+
+1482474530 /home/yf/Work/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /home/yf/Work/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1482463188 /home/yf/Work/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1480936989 /home/yf/Work/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/yf/Work/transcode/inc/url.h
+
+1482490010 /home/yf/Work/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1477380274 /home/yf/Work/transcode/inc/iProfile.h
+	<interface.h>
+
+1480482596 /home/yf/Work/transcode/inc/iGraphBuilder.h
+	<interface.h>
+
+1479722238 /home/yf/Work/transcode/src/Url.cpp
+	<ctype.h>
+	<string>
+	<iostream>
+	<algorithm>
+	"../inc/url.h"
+
+1480485640 /home/yf/Work/transcode/inc/transcode.h
+
+1484534722 source:/home/centos/work/src/transcode/transcode/main.cpp
+	<fstream>
+	<sstream>
+	<stdlib.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<list>
+	<memory>
+	<dom.h>
+	<iStream.h>
+	<iProfile.h>
+	<iGraphBuilder.h>
+	"../src/Url.cpp"
+	<transcode.h>
+
+1461581679 /home/centos/work/src/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/centos/work/src/transcode/inc/dump.h
+	"dom_site.h"
+
+1483508609 /home/centos/work/src/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /home/centos/work/src/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1483075275 /home/centos/work/src/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /home/centos/work/src/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/centos/work/src/transcode/inc/url.h
+
+1483602276 /home/centos/work/src/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1477380274 /home/centos/work/src/transcode/inc/iProfile.h
+	<interface.h>
+
+1480482596 /home/centos/work/src/transcode/inc/iGraphBuilder.h
+	<interface.h>
+
+1479722238 /home/centos/work/src/transcode/src/Url.cpp
+	<ctype.h>
+	<string>
+	<iostream>
+	<algorithm>
+	"../inc/url.h"
+
+1480485640 /home/centos/work/src/transcode/inc/transcode.h
+
+1484188338 source:/home/yf/Work/src/transcode/transcode/main.cpp
+	<fstream>
+	<sstream>
+	<stdlib.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<list>
+	<memory>
+	<dom.h>
+	<iStream.h>
+	<iProfile.h>
+	<iGraphBuilder.h>
+	"../src/Url.cpp"
+	<transcode.h>
+
+1461581679 /home/yf/Work/src/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/yf/Work/src/transcode/inc/dump.h
+	"dom_site.h"
+
+1483508609 /home/yf/Work/src/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /home/yf/Work/src/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1483075275 /home/yf/Work/src/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /home/yf/Work/src/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/yf/Work/src/transcode/inc/url.h
+
+1483602276 /home/yf/Work/src/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1477380274 /home/yf/Work/src/transcode/inc/iProfile.h
+	<interface.h>
+
+1480482596 /home/yf/Work/src/transcode/inc/iGraphBuilder.h
+	<interface.h>
+
+1479722238 /home/yf/Work/src/transcode/src/Url.cpp
+	<ctype.h>
+	<string>
+	<iostream>
+	<algorithm>
+	"../inc/url.h"
+
+1480485640 /home/yf/Work/src/transcode/inc/transcode.h
+
+1485075321 source:/root/work/src/transcode/transcode/main.cpp
+	<fstream>
+	<sstream>
+	<stdlib.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<list>
+	<memory>
+	<dom.h>
+	<iStream.h>
+	<iProfile.h>
+	<iGraphBuilder.h>
+	"../src/Url.cpp"
+	<transcode.h>
+
+1461581679 /root/work/src/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /root/work/src/transcode/inc/dump.h
+	"dom_site.h"
+
+1483508609 /root/work/src/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /root/work/src/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1483075275 /root/work/src/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /root/work/src/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /root/work/src/transcode/inc/url.h
+
+1483602276 /root/work/src/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1477380274 /root/work/src/transcode/inc/iProfile.h
+	<interface.h>
+
+1480482596 /root/work/src/transcode/inc/iGraphBuilder.h
+	<interface.h>
+
+1479722238 /root/work/src/transcode/src/Url.cpp
+	<ctype.h>
+	<string>
+	<iostream>
+	<algorithm>
+	"../inc/url.h"
+
+1480485640 /root/work/src/transcode/inc/transcode.h
+

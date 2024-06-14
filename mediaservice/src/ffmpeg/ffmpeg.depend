@@ -1,0 +1,632 @@
+# depslib dependency file v1.0
+1509939039 source:/root/work/git/mediaservice/src/ffmpeg/FFmpegAudioDecoder.cpp
+	"FFmpegAudioDecoder.h"
+
+1498111131 /root/work/git/mediaservice/src/ffmpeg/FFmpegAudioDecoder.h
+	"stdafx.h"
+
+1506072811 /root/work/git/mediaservice/src/ffmpeg/stdafx.h
+	<libavutil/imgutils.h>
+	<libavutil/opt.h>
+	<libavutil/mathematics.h>
+	<libavutil/samplefmt.h>
+	<libavcodec/avcodec.h>
+	<libavformat/avformat.h>
+	<libavformat/hevc.h>
+	<libswscale/swscale.h>
+	<libswresample/swresample.h>
+	<libavutil/internal.h>
+	<libavcodec/mpeg4audio.h>
+	<libavcodec/get_bits.h>
+	<libavcodec/put_bits.h>
+	<libavfilter/avfilter.h>
+	<libavfilter/buffersink.h>
+	<libavfilter/buffersrc.h>
+	<sys/eventfd.h>
+	<unistd.h>
+	<string>
+	<algorithm>
+	<dom.h>
+	<iMulitimedia.h>
+	<time_expend.h>
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/attributes.h
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/macros.h
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/version.h
+	"macros.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/avconfig.h
+
+1462447199 /root/work/git/mediaservice/ThirdParty/ffSDK/src/config.h
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavcodec/avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/buffer.h
+	<stdint.h>
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/cpu.h
+	"attributes.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/channel_layout.h
+	<stdint.h>
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavcodec/version.h
+	"libavutil/version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavformat/avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavformat/version.h
+	"libavutil/version.h"
+
+1459218328 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavformat/hevc.h
+	<stdint.h>
+	"avio.h"
+
+1459218327 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libswscale/swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libswscale/version.h
+	"libavutil/version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libswresample/swresample.h
+	<stdint.h>
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libswresample/version.h
+	"libavutil/avutil.h"
+
+1459218431 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/internal.h
+	<limits.h>
+	<stdint.h>
+	<stddef.h>
+	<assert.h>
+	"config.h"
+	"attributes.h"
+	"timer.h"
+	"cpu.h"
+	"dict.h"
+	"macros.h"
+	"pixfmt.h"
+	"version.h"
+	"x86/emms.h"
+	"libm.h"
+	<crtversion.h>
+
+1459218331 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/attributes.h
+
+1467104698 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/timer.h
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+	"config.h"
+	<mach/mach_time.h>
+	"log.h"
+	"aarch64/timer.h"
+	"arm/timer.h"
+	"ppc/timer.h"
+	"x86/timer.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1459218331 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/macros.h
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/version.h
+	"macros.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/intmath.h
+	<stdint.h>
+	"config.h"
+	"attributes.h"
+	"arm/intmath.h"
+	"x86/intmath.h"
+
+1459218331 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/arm/intmath.h
+	<stdint.h>
+	"config.h"
+	"libavutil/attributes.h"
+
+1459218333 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/x86/intmath.h
+	<stdint.h>
+	<stdlib.h>
+	<intrin.h>
+	<immintrin.h>
+	"config.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1459218331 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/aarch64/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218331 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/arm/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/ppc/timer.h
+	<stdint.h>
+	"config.h"
+
+1459218333 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/x86/timer.h
+	<stdint.h>
+	<intrin.h>
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/cpu.h
+	"attributes.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1459218333 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/x86/emms.h
+	"config.h"
+	"libavutil/attributes.h"
+	"libavutil/cpu.h"
+	<mmintrin.h>
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/libm.h
+	<math.h>
+	"config.h"
+	"attributes.h"
+	"intfloat.h"
+	"mathematics.h"
+	"libavutil/mips/libm_mips.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/mips/libm_mips.h
+
+1459218318 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavcodec/mpeg4audio.h
+	<stdint.h>
+	"get_bits.h"
+	"put_bits.h"
+
+1459218315 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavcodec/get_bits.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/intreadwrite.h"
+	"libavutil/log.h"
+	"libavutil/avassert.h"
+	"mathops.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/intreadwrite.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"bswap.h"
+	"config.h"
+	"arm/intreadwrite.h"
+	"avr32/intreadwrite.h"
+	"mips/intreadwrite.h"
+	"ppc/intreadwrite.h"
+	"tomi/intreadwrite.h"
+	"x86/intreadwrite.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/bswap.h
+	<stdint.h>
+	"libavutil/avconfig.h"
+	"attributes.h"
+	"config.h"
+	"aarch64/bswap.h"
+	"arm/bswap.h"
+	"avr32/bswap.h"
+	"sh4/bswap.h"
+	"x86/bswap.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavutil/avassert.h
+	<stdlib.h>
+	"avutil.h"
+	"log.h"
+
+1459218317 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavcodec/mathops.h
+	<stdint.h>
+	"libavutil/common.h"
+	"config.h"
+	"arm/mathops.h"
+	"avr32/mathops.h"
+	"mips/mathops.h"
+	"ppc/mathops.h"
+	"x86/mathops.h"
+
+1459218311 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavcodec/arm/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218311 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavcodec/avr32/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218318 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavcodec/mips/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218321 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavcodec/ppc/mathops.h
+	<stdint.h>
+	"config.h"
+	"libavutil/common.h"
+
+1459218325 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavcodec/x86/mathops.h
+	"config.h"
+	"libavutil/common.h"
+	"libavutil/x86/asm.h"
+
+1459218332 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavutil/x86/asm.h
+	<stdint.h>
+	"config.h"
+
+1459218321 /root/work/git/mediaservice/ThirdParty/ffSDK/src/libavcodec/put_bits.h
+	<stdint.h>
+	<stddef.h>
+	"libavutil/intreadwrite.h"
+	"libavutil/avassert.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavfilter/avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavfilter/version.h
+	"libavutil/version.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavfilter/buffersink.h
+	"avfilter.h"
+
+1516094359 /root/work/git/mediaservice/ThirdParty/ffSDK/include/libavfilter/buffersrc.h
+	"libavcodec/avcodec.h"
+	"avfilter.h"
+
+1461581679 /root/work/git/mediaservice/src/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1505359811 /root/work/git/mediaservice/src/inc/dump.h
+	"dom_site.h"
+
+1507875030 /root/work/git/mediaservice/src/inc/dom_site.h
+	"iProfile.h"
+
+1511935175 /root/work/git/mediaservice/src/inc/iProfile.h
+	<interface.h>
+
+1507882647 /root/work/git/mediaservice/src/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1507883288 /root/work/git/mediaservice/src/inc/dom_ptr.h
+	"dom_site.h"
+	"interface_imp.h"
+	"iStream.h"
+
+1507883190 /root/work/git/mediaservice/src/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1510206906 /root/work/git/mediaservice/src/inc/iStream.h
+	<stdint.h>
+	<stdarg.h>
+	<interface.h>
+
+1516087805 /root/work/git/mediaservice/src/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"iStream.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1512466580 /root/work/git/mediaservice/src/inc/MediaID.h
+	"version.h"
+
+1479975524 /root/work/git/mediaservice/src/inc/version.h
+
+1486612681 /root/work/git/mediaservice/src/inc/time_expend.h
+
+1509939039 source:/root/work/git/mediaservice/src/ffmpeg/FFmpegAudioEncoder.cpp
+	"FFmpegAudioEncoder.h"
+
+1506740038 /root/work/git/mediaservice/src/ffmpeg/FFmpegAudioEncoder.h
+	"stdafx.h"
+
+1506506952 source:/root/work/git/mediaservice/src/ffmpeg/FFmpegAudioResample.cpp
+	"FFmpegAudioResample.h"
+
+1506740038 /root/work/git/mediaservice/src/ffmpeg/FFmpegAudioResample.h
+	"stdafx.h"
+
+1510212386 source:/root/work/git/mediaservice/src/ffmpeg/FFmpegDemuxer.cpp
+	"FFmpegDemuxer.h"
+
+1508749319 /root/work/git/mediaservice/src/ffmpeg/FFmpegDemuxer.h
+	"stdafx.h"
+
+1509939039 source:/root/work/git/mediaservice/src/ffmpeg/FFmpegMuxer.cpp
+	"FFmpegMuxer.h"
+	"../src/Url.cpp"
+
+1505292754 /root/work/git/mediaservice/src/ffmpeg/FFmpegMuxer.h
+	"stdafx.h"
+	<list>
+	<vector>
+	<memory>
+
+1512125979 /root/work/git/mediaservice/src/src/Url.cpp
+	<stdio.h>
+	<memory.h>
+	<ctype.h>
+	<time.h>
+	<map>
+	<string>
+	<iostream>
+	<algorithm>
+	<arpa/inet.h>
+	<dump.h>
+	"../inc/iMulitimedia.h"
+
+1506507080 source:/root/work/git/mediaservice/src/ffmpeg/FFmpegOSD.cpp
+	"FFmpegOSD.h"
+
+1498113529 /root/work/git/mediaservice/src/ffmpeg/FFmpegOSD.h
+	"stdafx.h"
+
+1509939039 source:/root/work/git/mediaservice/src/ffmpeg/FFmpegVideoDecoder.cpp
+	"FFmpegVideoDecoder.h"
+
+1498131029 /root/work/git/mediaservice/src/ffmpeg/FFmpegVideoDecoder.h
+	"stdafx.h"
+
+1509939039 source:/root/work/git/mediaservice/src/ffmpeg/FFmpegVideoEncoder.cpp
+	"FFmpegVideoEncoder.h"
+
+1498113528 /root/work/git/mediaservice/src/ffmpeg/FFmpegVideoEncoder.h
+	"stdafx.h"
+
+1506507233 source:/root/work/git/mediaservice/src/ffmpeg/FFmpegVideoScale.cpp
+	"FFmpegVideoScale.h"
+
+1498113529 /root/work/git/mediaservice/src/ffmpeg/FFmpegVideoScale.h
+	"stdafx.h"
+
+1506072581 source:/root/work/git/mediaservice/src/ffmpeg/main.cpp
+	"stdafx.h"
+	<stdlib.h>
+	"MediaType.h"
+	"FFmpegDemuxer.h"
+	"FFmpegMuxer.h"
+	"FFmpegAudioDecoder.h"
+	"FFmpegAudioEncoder.h"
+	"FFmpegVideoDecoder.h"
+	"FFmpegVideoEncoder.h"
+	"FFmpegAudioResample.h"
+	"FFmpegVideoScale.h"
+	"FFmpegOSD.h"
+	<time_expend.cpp>
+
+1506047792 /root/work/git/mediaservice/src/ffmpeg/MediaType.h
+	"stdafx.h"
+	<iProfile.h>
+
+1486612680 /root/work/git/mediaservice/src/src/time_expend.cpp
+	<time.h>
+	<stdlib.h>
+	<time_expend.h>
+
+1512471902 source:/root/work/git/mediaservice/src/ffmpeg/MediaType.cpp
+	"MediaType.h"
+

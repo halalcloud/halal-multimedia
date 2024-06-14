@@ -1,0 +1,32 @@
+{
+  "input": {
+    "cycle": false,
+    "source": [
+      {
+        "url": "/mnt/hgfs/Share/1.mp4"
+      }
+    ]
+  },
+  "output": [
+    {
+      "stream": [
+        0,1
+      ],
+      "url_format": "gosun://192.168.10.139/live"
+    }
+  ],
+  "template": {
+    "stream": [
+      {
+        "media": {
+          "major": "video"
+        }
+      },
+      {
+        "media": {
+          "major": "audio"
+        }
+      }
+    ]
+  }
+}

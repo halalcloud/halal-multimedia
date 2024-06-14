@@ -1,0 +1,114 @@
+# depslib dependency file v1.0
+1513133193 source:/root/work/git/mediaservice/src/gosun/GosunDemuxer.cpp
+	"GosunDemuxer.h"
+
+1504165204 /root/work/git/mediaservice/src/gosun/GosunDemuxer.h
+	"stdafx.h"
+
+1512121101 /root/work/git/mediaservice/src/gosun/stdafx.h
+	<sys/stat.h>
+	<unistd.h>
+	<vector>
+	<list>
+	<string>
+	<dirent.h>
+	<arpa/inet.h>
+	<memory>
+	<dom.h>
+	<iMulitimedia.h>
+	<iMediaService.h>
+	<Locker.h>
+	<Url.cpp>
+	<time.h>
+
+1461581679 /root/work/git/mediaservice/src/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1505359811 /root/work/git/mediaservice/src/inc/dump.h
+	"dom_site.h"
+
+1507875030 /root/work/git/mediaservice/src/inc/dom_site.h
+	"iProfile.h"
+
+1511935175 /root/work/git/mediaservice/src/inc/iProfile.h
+	<interface.h>
+
+1507882647 /root/work/git/mediaservice/src/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1507883288 /root/work/git/mediaservice/src/inc/dom_ptr.h
+	"dom_site.h"
+	"interface_imp.h"
+	"iStream.h"
+
+1507883190 /root/work/git/mediaservice/src/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1510206906 /root/work/git/mediaservice/src/inc/iStream.h
+	<stdint.h>
+	<stdarg.h>
+	<interface.h>
+
+1516087805 /root/work/git/mediaservice/src/inc/iMulitimedia.h
+	<stdint.h>
+	"interface.h"
+	"iStream.h"
+	"MediaID.h"
+	"iProfile.h"
+
+1512466580 /root/work/git/mediaservice/src/inc/MediaID.h
+	"version.h"
+
+1479975524 /root/work/git/mediaservice/src/inc/version.h
+
+1508818295 /root/work/git/mediaservice/src/inc/iMediaService.h
+	<interface.h>
+
+1503886305 /root/work/git/mediaservice/src/src/Locker.h
+	<stdint.h>
+	<pthread.h>
+	<iStream.h>
+
+1512125979 /root/work/git/mediaservice/src/src/Url.cpp
+	<stdio.h>
+	<memory.h>
+	<ctype.h>
+	<time.h>
+	<map>
+	<string>
+	<iostream>
+	<algorithm>
+	<arpa/inet.h>
+	<dump.h>
+	"../inc/iMulitimedia.h"
+
+1513069680 source:/root/work/git/mediaservice/src/gosun/GosunMuxer.cpp
+	"GosunMuxer.h"
+
+1510219405 /root/work/git/mediaservice/src/gosun/GosunMuxer.h
+	<vector>
+	"stdafx.h"
+
+1513326439 source:/root/work/git/mediaservice/src/gosun/GosunSession.cpp
+	"GosunSession.h"
+	<Url.cpp>
+
+1513322846 /root/work/git/mediaservice/src/gosun/GosunSession.h
+	"stdafx.h"
+
+1506749255 source:/root/work/git/mediaservice/src/gosun/main.cpp
+	"stdafx.h"
+	"GosunSession.h"
+	"GosunDemuxer.h"
+	"GosunMuxer.h"
+	<Locker.cpp>
+
+1503889039 /root/work/git/mediaservice/src/src/Locker.cpp
+	"Locker.h"
+	<dump.h>
+

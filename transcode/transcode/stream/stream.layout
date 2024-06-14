@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="epoll.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="290" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="network.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8357" topLine="255" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="554" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../inc/iStream.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1614" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="network.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="395" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="stream.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1511" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="stdafx.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="371" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BufSession.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3782" topLine="124" />
+		</Cursor>
+	</File>
+	<File name="stream.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="317" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BufSession.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="905" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="buffer.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="390" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="epoll.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2361" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="buffer.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="304" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,28 @@
+{
+  "input": {
+    "url_format": "gosun://127.0.0.1/capture/pig"
+  },
+  "output": [
+    {
+      "stream": [
+        0
+      ],
+      "url_format": "sdl://localhost"
+    }
+  ],
+  "template": {
+    "stream": [
+      {
+        "media": {
+          "major": "video",
+          "option": {
+            "height": 480,
+            "ratioX": 16,
+            "ratioY": 9,
+            "width": 720
+          }
+        }
+      }
+    ]
+  }
+}

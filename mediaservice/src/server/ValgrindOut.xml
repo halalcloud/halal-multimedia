@@ -1,0 +1,1903 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: /root/work/git/mediaservice/src/server/../bin/Debug/server config.json</line>
+</preamble>
+
+<pid>30181</pid>
+<ppid>25651</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/local/bin/valgrind</exe>
+    <arg>--leak-check=full</arg>
+    <arg>--track-origins=yes</arg>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/root/work/git/mediaservice/src/server/ValgrindOut.xml</arg>
+  </vargv>
+  <argv>
+    <exe>/root/work/git/mediaservice/src/server/../bin/Debug/server</exe>
+    <arg>config.json</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.085 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0xC60BC98</ip>
+      <obj>/opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19</obj>
+    </frame>
+    <frame>
+      <ip>0xC60B942</ip>
+      <obj>/opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19</obj>
+    </frame>
+    <frame>
+      <ip>0x400F3A2</ip>
+      <obj>/usr/lib64/ld-2.17.so</obj>
+      <fn>_dl_init</fn>
+    </frame>
+    <frame>
+      <ip>0x4013AB5</ip>
+      <obj>/usr/lib64/ld-2.17.so</obj>
+      <fn>dl_open_worker</fn>
+    </frame>
+    <frame>
+      <ip>0x400F1B3</ip>
+      <obj>/usr/lib64/ld-2.17.so</obj>
+      <fn>_dl_catch_error</fn>
+    </frame>
+    <frame>
+      <ip>0x40131AA</ip>
+      <obj>/usr/lib64/ld-2.17.so</obj>
+      <fn>_dl_open</fn>
+    </frame>
+    <frame>
+      <ip>0x5E5302A</ip>
+      <obj>/usr/lib64/libdl-2.17.so</obj>
+      <fn>dlopen_doit</fn>
+    </frame>
+    <frame>
+      <ip>0x400F1B3</ip>
+      <obj>/usr/lib64/ld-2.17.so</obj>
+      <fn>_dl_catch_error</fn>
+    </frame>
+    <frame>
+      <ip>0x5E5362C</ip>
+      <obj>/usr/lib64/libdl-2.17.so</obj>
+      <fn>_dlerror_run</fn>
+    </frame>
+    <frame>
+      <ip>0x5E530C0</ip>
+      <obj>/usr/lib64/libdl-2.17.so</obj>
+      <fn>dlopen@@GLIBC_2.2.5</fn>
+    </frame>
+    <frame>
+      <ip>0xBF8AE22</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libIntelCodec.so</obj>
+      <fn>MFX_DISP_HANDLE::LoadSelectedDLL(char const*, eMfxImplType, int, int, mfxInitParam&amp;)</fn>
+    </frame>
+    <frame>
+      <ip>0xBF8847B</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libIntelCodec.so</obj>
+      <fn>MFXInitEx</fn>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a stack allocation</auxwhat>
+  <stack>
+    <frame>
+      <ip>0xC1E8D40</ip>
+      <obj>/opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19</obj>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0xC60BC98</ip>
+      <obj>/opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19</obj>
+    </frame>
+    <frame>
+      <ip>0xC897022</ip>
+      <obj>/opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19</obj>
+    </frame>
+    <frame>
+      <ip>0xC897102</ip>
+      <obj>/opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19</obj>
+    </frame>
+    <frame>
+      <ip>0x400F3A2</ip>
+      <obj>/usr/lib64/ld-2.17.so</obj>
+      <fn>_dl_init</fn>
+    </frame>
+    <frame>
+      <ip>0x4013AB5</ip>
+      <obj>/usr/lib64/ld-2.17.so</obj>
+      <fn>dl_open_worker</fn>
+    </frame>
+    <frame>
+      <ip>0x400F1B3</ip>
+      <obj>/usr/lib64/ld-2.17.so</obj>
+      <fn>_dl_catch_error</fn>
+    </frame>
+    <frame>
+      <ip>0x40131AA</ip>
+      <obj>/usr/lib64/ld-2.17.so</obj>
+      <fn>_dl_open</fn>
+    </frame>
+    <frame>
+      <ip>0x5E5302A</ip>
+      <obj>/usr/lib64/libdl-2.17.so</obj>
+      <fn>dlopen_doit</fn>
+    </frame>
+    <frame>
+      <ip>0x400F1B3</ip>
+      <obj>/usr/lib64/ld-2.17.so</obj>
+      <fn>_dl_catch_error</fn>
+    </frame>
+    <frame>
+      <ip>0x5E5362C</ip>
+      <obj>/usr/lib64/libdl-2.17.so</obj>
+      <fn>_dlerror_run</fn>
+    </frame>
+    <frame>
+      <ip>0x5E530C0</ip>
+      <obj>/usr/lib64/libdl-2.17.so</obj>
+      <fn>dlopen@@GLIBC_2.2.5</fn>
+    </frame>
+    <frame>
+      <ip>0xBF8AE22</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libIntelCodec.so</obj>
+      <fn>MFX_DISP_HANDLE::LoadSelectedDLL(char const*, eMfxImplType, int, int, mfxInitParam&amp;)</fn>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a stack allocation</auxwhat>
+  <stack>
+    <frame>
+      <ip>0xC897010</ip>
+      <obj>/opt/intel/mediasdk/lib64/libmfxhw64-p.so.1.19</obj>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x2</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0xBF889FD</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libIntelCodec.so</obj>
+      <fn>MFXInitEx</fn>
+    </frame>
+    <frame>
+      <ip>0xBF54716</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libIntelCodec.so</obj>
+      <fn>MFXVideoSession::InitEx(mfxInitParam)</fn>
+      <dir>/opt/intel/mediasdk/include</dir>
+      <file>mfxvideo++.h</file>
+      <line>46</line>
+    </frame>
+    <frame>
+      <ip>0xBF54389</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libIntelCodec.so</obj>
+      <fn>SetSite</fn>
+      <dir>/root/work/git/mediaservice/src/IntelCodec</dir>
+      <file>main.cpp</file>
+      <line>27</line>
+    </frame>
+    <frame>
+      <ip>0x5065234</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CModule::InternalLoad(char const*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>Module.cpp</file>
+      <line>132</line>
+    </frame>
+    <frame>
+      <ip>0x5064C09</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CModule::FinalConstruct(Interface*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>Module.cpp</file>
+      <line>22</line>
+    </frame>
+    <frame>
+      <ip>0x5065384</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>interface_imp&lt;CModule&gt;::interface_imp(Interface*, bool, void*, bool&amp;)</fn>
+      <dir>/root/work/git/mediaservice/src/dom/../inc</dir>
+      <file>interface_imp.h</file>
+      <line>14</line>
+    </frame>
+    <frame>
+      <ip>0x5064CB0</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CModule::Create(char const*, Interface*, bool, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>Module.cpp</file>
+      <line>37</line>
+    </frame>
+    <frame>
+      <ip>0x505AB45</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CLibrary::LoadModule(char const*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>Library.cpp</file>
+      <line>355</line>
+    </frame>
+    <frame>
+      <ip>0x5059C4C</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CLibrary::Load(char const*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>Library.cpp</file>
+      <line>121</line>
+    </frame>
+    <frame>
+      <ip>0x4009E9</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/server</obj>
+      <fn>main</fn>
+      <dir>/root/work/git/mediaservice/src/server</dir>
+      <file>main.cpp</file>
+      <line>16</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a stack allocation</auxwhat>
+  <stack>
+    <frame>
+      <ip>0xBF882CA</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libIntelCodec.so</obj>
+      <fn>MFXInitEx</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x3</unique>
+  <tid>3</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 4</what>
+  <stack>
+    <frame>
+      <ip>0x64A5AB9</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>show_bits(GetBitContext*, int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls/bits</dir>
+      <file>get_bits.h</file>
+      <line>305</line>
+    </frame>
+    <frame>
+      <ip>0x64DAE6D</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>wzd::aac_asc2adts::avpriv_mpeg4audio_get_config(wzd::aac_asc2adts::MPEG4AudioConfig*, unsigned char const*, int, int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.h</file>
+      <line>224</line>
+    </frame>
+    <frame>
+      <ip>0x64D8D1E</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>wzd::aac_asc2adts::aac_asc2adts(unsigned char*, unsigned int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.cpp</file>
+      <line>613</line>
+    </frame>
+    <frame>
+      <ip>0x64D6206</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>CTsMuxer::Open()</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.cpp</file>
+      <line>401</line>
+    </frame>
+    <frame>
+      <ip>0x64D51D4</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>CTsMuxer::Notify(unsigned int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.cpp</file>
+      <line>122</line>
+    </frame>
+    <frame>
+      <ip>0xAAF31A2</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>119</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3261</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAE21A3</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::Notify(IFilter*, unsigned int, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>175</line>
+    </frame>
+    <frame>
+      <ip>0xAAE9DAB</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::Play(IFilter*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>208</line>
+    </frame>
+    <frame>
+      <ip>0xAAEDA1C</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>612</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x613c592 is 2 bytes inside a block of size 5 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C29C3D</ip>
+      <obj>/usr/local/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+      <dir>/root/work/git/mediaservice/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>299</line>
+    </frame>
+    <frame>
+      <ip>0x4C2BB0B</ip>
+      <obj>/usr/local/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>realloc</fn>
+      <dir>/root/work/git/mediaservice/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>785</line>
+    </frame>
+    <frame>
+      <ip>0x5061590</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CMemProfile::CValue::Load(IStream*, unsigned char)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>MemProfile.cpp</file>
+      <line>94</line>
+    </frame>
+    <frame>
+      <ip>0x5062A72</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CMemProfile::Load(IStream*, unsigned char, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>MemProfile.cpp</file>
+      <line>287</line>
+    </frame>
+    <frame>
+      <ip>0x6958239</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libffmpeg.so</obj>
+      <fn>CMediaType::Load(IStream*, unsigned char, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/ffmpeg</dir>
+      <file>MediaType.cpp</file>
+      <line>657</line>
+    </frame>
+    <frame>
+      <ip>0xC3D1316</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libgosun.so</obj>
+      <fn>CGosunDemuxer::Load(IStream*, unsigned char)</fn>
+      <dir>/root/work/git/mediaservice/src/gosun</dir>
+      <file>GosunDemuxer.cpp</file>
+      <line>216</line>
+    </frame>
+    <frame>
+      <ip>0xC3D0A1B</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libgosun.so</obj>
+      <fn>CGosunDemuxer::OnConnect(IInputPin*, IOutputPin*, IMediaType*)</fn>
+      <dir>/root/work/git/mediaservice/src/gosun</dir>
+      <file>GosunDemuxer.cpp</file>
+      <line>149</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3AC7</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Connect(IOutputPin*, IMediaType*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>310</line>
+    </frame>
+    <frame>
+      <ip>0xAB0ABC8</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Connect(IInputPin*, IMediaType*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>249</line>
+    </frame>
+    <frame>
+      <ip>0xAAE1A70</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::ConnectPin(IOutputPin*, IFilter**, char const*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>95</line>
+    </frame>
+    <frame>
+      <ip>0xAAEBE81</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::Connect(IFilter*, IFilter*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>430</line>
+    </frame>
+    <frame>
+      <ip>0xAAE9D05</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::Play(IFilter*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>203</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x4</unique>
+  <tid>3</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 4</what>
+  <stack>
+    <frame>
+      <ip>0x64A5A17</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>get_bits(GetBitContext*, int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls/bits</dir>
+      <file>get_bits.h</file>
+      <line>270</line>
+    </frame>
+    <frame>
+      <ip>0x64DAE8E</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>wzd::aac_asc2adts::avpriv_mpeg4audio_get_config(wzd::aac_asc2adts::MPEG4AudioConfig*, unsigned char const*, int, int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.h</file>
+      <line>225</line>
+    </frame>
+    <frame>
+      <ip>0x64D8D1E</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>wzd::aac_asc2adts::aac_asc2adts(unsigned char*, unsigned int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.cpp</file>
+      <line>613</line>
+    </frame>
+    <frame>
+      <ip>0x64D6206</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>CTsMuxer::Open()</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.cpp</file>
+      <line>401</line>
+    </frame>
+    <frame>
+      <ip>0x64D51D4</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>CTsMuxer::Notify(unsigned int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.cpp</file>
+      <line>122</line>
+    </frame>
+    <frame>
+      <ip>0xAAF31A2</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>119</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3261</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAE21A3</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::Notify(IFilter*, unsigned int, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>175</line>
+    </frame>
+    <frame>
+      <ip>0xAAE9DAB</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::Play(IFilter*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>208</line>
+    </frame>
+    <frame>
+      <ip>0xAAEDA1C</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>612</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x613c592 is 2 bytes inside a block of size 5 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C29C3D</ip>
+      <obj>/usr/local/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+      <dir>/root/work/git/mediaservice/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>299</line>
+    </frame>
+    <frame>
+      <ip>0x4C2BB0B</ip>
+      <obj>/usr/local/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>realloc</fn>
+      <dir>/root/work/git/mediaservice/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>785</line>
+    </frame>
+    <frame>
+      <ip>0x5061590</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CMemProfile::CValue::Load(IStream*, unsigned char)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>MemProfile.cpp</file>
+      <line>94</line>
+    </frame>
+    <frame>
+      <ip>0x5062A72</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CMemProfile::Load(IStream*, unsigned char, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>MemProfile.cpp</file>
+      <line>287</line>
+    </frame>
+    <frame>
+      <ip>0x6958239</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libffmpeg.so</obj>
+      <fn>CMediaType::Load(IStream*, unsigned char, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/ffmpeg</dir>
+      <file>MediaType.cpp</file>
+      <line>657</line>
+    </frame>
+    <frame>
+      <ip>0xC3D1316</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libgosun.so</obj>
+      <fn>CGosunDemuxer::Load(IStream*, unsigned char)</fn>
+      <dir>/root/work/git/mediaservice/src/gosun</dir>
+      <file>GosunDemuxer.cpp</file>
+      <line>216</line>
+    </frame>
+    <frame>
+      <ip>0xC3D0A1B</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libgosun.so</obj>
+      <fn>CGosunDemuxer::OnConnect(IInputPin*, IOutputPin*, IMediaType*)</fn>
+      <dir>/root/work/git/mediaservice/src/gosun</dir>
+      <file>GosunDemuxer.cpp</file>
+      <line>149</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3AC7</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Connect(IOutputPin*, IMediaType*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>310</line>
+    </frame>
+    <frame>
+      <ip>0xAB0ABC8</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Connect(IInputPin*, IMediaType*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>249</line>
+    </frame>
+    <frame>
+      <ip>0xAAE1A70</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::ConnectPin(IOutputPin*, IFilter**, char const*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>95</line>
+    </frame>
+    <frame>
+      <ip>0xAAEBE81</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::Connect(IFilter*, IFilter*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>430</line>
+    </frame>
+    <frame>
+      <ip>0xAAE9D05</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::Play(IFilter*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>203</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x5</unique>
+  <tid>3</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 4</what>
+  <stack>
+    <frame>
+      <ip>0x64A5A17</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>get_bits(GetBitContext*, int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls/bits</dir>
+      <file>get_bits.h</file>
+      <line>270</line>
+    </frame>
+    <frame>
+      <ip>0x64DAB30</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>wzd::aac_asc2adts::get_object_type(GetBitContext*)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.h</file>
+      <line>163</line>
+    </frame>
+    <frame>
+      <ip>0x64DAEA1</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>wzd::aac_asc2adts::avpriv_mpeg4audio_get_config(wzd::aac_asc2adts::MPEG4AudioConfig*, unsigned char const*, int, int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.h</file>
+      <line>226</line>
+    </frame>
+    <frame>
+      <ip>0x64D8D1E</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>wzd::aac_asc2adts::aac_asc2adts(unsigned char*, unsigned int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.cpp</file>
+      <line>613</line>
+    </frame>
+    <frame>
+      <ip>0x64D6206</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>CTsMuxer::Open()</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.cpp</file>
+      <line>401</line>
+    </frame>
+    <frame>
+      <ip>0x64D51D4</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>CTsMuxer::Notify(unsigned int)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>TsMuxer.cpp</file>
+      <line>122</line>
+    </frame>
+    <frame>
+      <ip>0xAAF31A2</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>119</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3261</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAE21A3</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::Notify(IFilter*, unsigned int, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>175</line>
+    </frame>
+    <frame>
+      <ip>0xAAE9DAB</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::Play(IFilter*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>208</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x613c593 is 3 bytes inside a block of size 5 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C29C3D</ip>
+      <obj>/usr/local/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+      <dir>/root/work/git/mediaservice/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>299</line>
+    </frame>
+    <frame>
+      <ip>0x4C2BB0B</ip>
+      <obj>/usr/local/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>realloc</fn>
+      <dir>/root/work/git/mediaservice/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>785</line>
+    </frame>
+    <frame>
+      <ip>0x5061590</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CMemProfile::CValue::Load(IStream*, unsigned char)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>MemProfile.cpp</file>
+      <line>94</line>
+    </frame>
+    <frame>
+      <ip>0x5062A72</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CMemProfile::Load(IStream*, unsigned char, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>MemProfile.cpp</file>
+      <line>287</line>
+    </frame>
+    <frame>
+      <ip>0x6958239</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libffmpeg.so</obj>
+      <fn>CMediaType::Load(IStream*, unsigned char, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/ffmpeg</dir>
+      <file>MediaType.cpp</file>
+      <line>657</line>
+    </frame>
+    <frame>
+      <ip>0xC3D1316</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libgosun.so</obj>
+      <fn>CGosunDemuxer::Load(IStream*, unsigned char)</fn>
+      <dir>/root/work/git/mediaservice/src/gosun</dir>
+      <file>GosunDemuxer.cpp</file>
+      <line>216</line>
+    </frame>
+    <frame>
+      <ip>0xC3D0A1B</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libgosun.so</obj>
+      <fn>CGosunDemuxer::OnConnect(IInputPin*, IOutputPin*, IMediaType*)</fn>
+      <dir>/root/work/git/mediaservice/src/gosun</dir>
+      <file>GosunDemuxer.cpp</file>
+      <line>149</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3AC7</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Connect(IOutputPin*, IMediaType*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>310</line>
+    </frame>
+    <frame>
+      <ip>0xAB0ABC8</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Connect(IInputPin*, IMediaType*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>249</line>
+    </frame>
+    <frame>
+      <ip>0xAAE1A70</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::ConnectPin(IOutputPin*, IFilter**, char const*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>95</line>
+    </frame>
+    <frame>
+      <ip>0xAAEBE81</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::Connect(IFilter*, IFilter*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>430</line>
+    </frame>
+    <frame>
+      <ip>0xAAE9D05</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::Play(IFilter*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>203</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x6</unique>
+  <tid>5</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x6717D0E</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::Close(int)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>524</line>
+    </frame>
+    <frame>
+      <ip>0x6717CCA</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>512</line>
+    </frame>
+    <frame>
+      <ip>0x670D900</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CEpollPoint::Notify(unsigned long, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>epoll.cpp</file>
+      <line>88</line>
+    </frame>
+    <frame>
+      <ip>0x670E7E2</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CEpoll::Process()</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>epoll.cpp</file>
+      <line>283</line>
+    </frame>
+    <frame>
+      <ip>0x670E543</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CEpoll::Process(void*)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>epoll.cpp</file>
+      <line>220</line>
+    </frame>
+    <frame>
+      <ip>0x4E3DDC4</ip>
+      <obj>/usr/lib64/libpthread-2.17.so</obj>
+      <fn>start_thread</fn>
+    </frame>
+    <frame>
+      <ip>0x5B86CEC</ip>
+      <obj>/usr/lib64/libc-2.17.so</obj>
+      <fn>clone</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x104a73d0 is 160 bytes inside a block of size 184 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2B171</ip>
+      <obj>/usr/local/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+      <dir>/root/work/git/mediaservice/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>575</line>
+    </frame>
+    <frame>
+      <ip>0x671B1CD</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>interface_imp&lt;CNetworkStream&gt;::~interface_imp()</fn>
+      <dir>/root/work/git/mediaservice/src/stream/../inc</dir>
+      <file>interface_imp.h</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x671AA82</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>interface_imp&lt;CNetworkStream&gt;::Release()</fn>
+      <dir>/root/work/git/mediaservice/src/stream/../inc</dir>
+      <file>interface_imp.h</file>
+      <line>46</line>
+    </frame>
+    <frame>
+      <ip>0x64BDF3A</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>dom_ptr&lt;IStream&gt;::~dom_ptr()</fn>
+      <dir>/root/work/git/mediaservice/src/hls/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>36</line>
+    </frame>
+    <frame>
+      <ip>0x64BD951</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>CHttpSession::~CHttpSession()</fn>
+    </frame>
+    <frame>
+      <ip>0x64BF96D</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>interface_imp&lt;CHttpSession&gt;::~interface_imp()</fn>
+    </frame>
+    <frame>
+      <ip>0x64BF99D</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>interface_imp&lt;CHttpSession&gt;::~interface_imp()</fn>
+      <dir>/root/work/git/mediaservice/src/hls/../inc</dir>
+      <file>interface_imp.h</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x64BE76A</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>interface_imp&lt;CHttpSession&gt;::Release()</fn>
+      <dir>/root/work/git/mediaservice/src/hls/../inc</dir>
+      <file>interface_imp.h</file>
+      <line>57</line>
+    </frame>
+    <frame>
+      <ip>0xAAE5010</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>dom_ptr&lt;IFilter&gt;::~dom_ptr()</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>36</line>
+    </frame>
+    <frame>
+      <ip>0xAAFFE20</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CMediaService::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>MediaService.cpp</file>
+      <line>273</line>
+    </frame>
+    <frame>
+      <ip>0xAAE707F</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TSet&lt;std::list&lt;dom_ptr&lt;IFilter&gt;, std::allocator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;, std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>266</line>
+    </frame>
+    <frame>
+      <ip>0xAAE6DCE</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TIt&lt;std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>229</line>
+    </frame>
+  </stack>
+  <auxwhat>Block was alloc'd at</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A145</ip>
+      <obj>/usr/local/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new(unsigned long)</fn>
+      <dir>/root/work/git/mediaservice/valgrind-3.11.0/coregrind/m_replacemalloc</dir>
+      <file>vg_replace_malloc.c</file>
+      <line>333</line>
+    </frame>
+    <frame>
+      <ip>0x6716451</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::Create(char const*, Interface*, bool, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>183</line>
+    </frame>
+    <frame>
+      <ip>0x5059DC5</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CLibrary::CreateObj(_GUID const&amp;, char const*, Interface*, bool, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>Library.cpp</file>
+      <line>136</line>
+    </frame>
+    <frame>
+      <ip>0x5064F36</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CModule::CreateObj(_GUID const&amp;, char const*, Interface*, bool, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>Module.cpp</file>
+      <line>72</line>
+    </frame>
+    <frame>
+      <ip>0x64BE357</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>dom_ptr&lt;IStream&gt;::Create(_GUID const&amp;, Interface*, bool, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/hls/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>82</line>
+    </frame>
+    <frame>
+      <ip>0x64B623F</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>CHttpSession::FinalConstruct(Interface*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>HttpSession.cpp</file>
+      <line>27</line>
+    </frame>
+    <frame>
+      <ip>0x64BE5F9</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>interface_imp&lt;CHttpSession&gt;::interface_imp(Interface*, bool, void*, bool&amp;)</fn>
+      <dir>/root/work/git/mediaservice/src/hls/../inc</dir>
+      <file>interface_imp.h</file>
+      <line>14</line>
+    </frame>
+    <frame>
+      <ip>0x64B651C</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libhls.so</obj>
+      <fn>CHttpSession::Create(char const*, Interface*, bool, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/hls</dir>
+      <file>HttpSession.cpp</file>
+      <line>53</line>
+    </frame>
+    <frame>
+      <ip>0x6715F01</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkListen::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>124</line>
+    </frame>
+    <frame>
+      <ip>0x670D900</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CEpollPoint::Notify(unsigned long, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>epoll.cpp</file>
+      <line>88</line>
+    </frame>
+    <frame>
+      <ip>0x670E7E2</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CEpoll::Process()</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>epoll.cpp</file>
+      <line>283</line>
+    </frame>
+    <frame>
+      <ip>0x670E543</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CEpoll::Process(void*)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>epoll.cpp</file>
+      <line>220</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x9</unique>
+  <tid>4</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0xAB0CBD8</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CPublishRender::Notify(unsigned int)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>PublishRender.cpp</file>
+      <line>131</line>
+    </frame>
+    <frame>
+      <ip>0xAAF31A2</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>119</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAE21A3</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::Notify(IFilter*, unsigned int, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>175</line>
+    </frame>
+    <frame>
+      <ip>0xAAED920</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>600</line>
+    </frame>
+    <frame>
+      <ip>0xAAE27F4</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0xAAE707F</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TSet&lt;std::list&lt;dom_ptr&lt;IFilter&gt;, std::allocator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;, std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>266</line>
+    </frame>
+    <frame>
+      <ip>0xAAE6DCE</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TIt&lt;std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>229</line>
+    </frame>
+    <frame>
+      <ip>0x5058AE9</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CEventPoint::Notify(unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>EventPoint.cpp</file>
+      <line>53</line>
+    </frame>
+    <frame>
+      <ip>0xC3D9452</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libgosun.so</obj>
+      <fn>CGosunSession::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/gosun</dir>
+      <file>GosunSession.cpp</file>
+      <line>884</line>
+    </frame>
+    <frame>
+      <ip>0x6717E6E</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::Close(int)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>553</line>
+    </frame>
+    <frame>
+      <ip>0x67180E0</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::Recv(unsigned char*, unsigned int, unsigned int&amp;, unsigned char)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>595</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a stack allocation</auxwhat>
+  <stack>
+    <frame>
+      <ip>0xAB00744</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>non-virtual thunk to CMediaService::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>MediaService.h</file>
+      <line>37</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xa</unique>
+  <tid>4</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0xAAF31AE</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>119</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAE21A3</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::Notify(IFilter*, unsigned int, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>175</line>
+    </frame>
+    <frame>
+      <ip>0xAAED920</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>600</line>
+    </frame>
+    <frame>
+      <ip>0xAAE27F4</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0xAAE707F</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TSet&lt;std::list&lt;dom_ptr&lt;IFilter&gt;, std::allocator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;, std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>266</line>
+    </frame>
+    <frame>
+      <ip>0xAAE6DCE</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TIt&lt;std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>229</line>
+    </frame>
+    <frame>
+      <ip>0x5058AE9</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CEventPoint::Notify(unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>EventPoint.cpp</file>
+      <line>53</line>
+    </frame>
+    <frame>
+      <ip>0xC3D9452</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libgosun.so</obj>
+      <fn>CGosunSession::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/gosun</dir>
+      <file>GosunSession.cpp</file>
+      <line>884</line>
+    </frame>
+    <frame>
+      <ip>0x6717E6E</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::Close(int)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>553</line>
+    </frame>
+    <frame>
+      <ip>0x67180E0</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::Recv(unsigned char*, unsigned int, unsigned int&amp;, unsigned char)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>595</line>
+    </frame>
+    <frame>
+      <ip>0x6717B7A</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>488</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a stack allocation</auxwhat>
+  <stack>
+    <frame>
+      <ip>0xAB00744</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>non-virtual thunk to CMediaService::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>MediaService.h</file>
+      <line>37</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xb</unique>
+  <tid>4</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0xAAF31BC</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>120</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAE21A3</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::Notify(IFilter*, unsigned int, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>175</line>
+    </frame>
+    <frame>
+      <ip>0xAAED920</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>600</line>
+    </frame>
+    <frame>
+      <ip>0xAAE27F4</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0xAAE707F</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TSet&lt;std::list&lt;dom_ptr&lt;IFilter&gt;, std::allocator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;, std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>266</line>
+    </frame>
+    <frame>
+      <ip>0xAAE6DCE</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TIt&lt;std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>229</line>
+    </frame>
+    <frame>
+      <ip>0x5058AE9</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CEventPoint::Notify(unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>EventPoint.cpp</file>
+      <line>53</line>
+    </frame>
+    <frame>
+      <ip>0xC3D9452</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libgosun.so</obj>
+      <fn>CGosunSession::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/gosun</dir>
+      <file>GosunSession.cpp</file>
+      <line>884</line>
+    </frame>
+    <frame>
+      <ip>0x6717E6E</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::Close(int)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>553</line>
+    </frame>
+    <frame>
+      <ip>0x67180E0</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::Recv(unsigned char*, unsigned int, unsigned int&amp;, unsigned char)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>595</line>
+    </frame>
+    <frame>
+      <ip>0x6717B7A</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libstream.so</obj>
+      <fn>CNetworkStream::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/stream</dir>
+      <file>network.cpp</file>
+      <line>488</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a stack allocation</auxwhat>
+  <stack>
+    <frame>
+      <ip>0xAB00744</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>non-virtual thunk to CMediaService::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>MediaService.h</file>
+      <line>37</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xc</unique>
+  <tid>4</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0xAB0CBD8</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CPublishRender::Notify(unsigned int)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>PublishRender.cpp</file>
+      <line>131</line>
+    </frame>
+    <frame>
+      <ip>0xAAF31A2</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>119</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3261</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3261</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAE21A3</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::Notify(IFilter*, unsigned int, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>175</line>
+    </frame>
+    <frame>
+      <ip>0xAAED920</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>600</line>
+    </frame>
+    <frame>
+      <ip>0xAAE27F4</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0xAAE707F</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TSet&lt;std::list&lt;dom_ptr&lt;IFilter&gt;, std::allocator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;, std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>266</line>
+    </frame>
+    <frame>
+      <ip>0xAAE6DCE</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TIt&lt;std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>229</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a stack allocation</auxwhat>
+  <stack>
+    <frame>
+      <ip>0xAB00744</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>non-virtual thunk to CMediaService::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>MediaService.h</file>
+      <line>37</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xd</unique>
+  <tid>4</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0xAAF31AE</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>119</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3261</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3261</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAE21A3</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::Notify(IFilter*, unsigned int, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>175</line>
+    </frame>
+    <frame>
+      <ip>0xAAED920</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>600</line>
+    </frame>
+    <frame>
+      <ip>0xAAE27F4</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0xAAE707F</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TSet&lt;std::list&lt;dom_ptr&lt;IFilter&gt;, std::allocator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;, std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>266</line>
+    </frame>
+    <frame>
+      <ip>0xAAE6DCE</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TIt&lt;std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>229</line>
+    </frame>
+    <frame>
+      <ip>0x5058AE9</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CEventPoint::Notify(unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>EventPoint.cpp</file>
+      <line>53</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a stack allocation</auxwhat>
+  <stack>
+    <frame>
+      <ip>0xAB00744</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>non-virtual thunk to CMediaService::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>MediaService.h</file>
+      <line>37</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xe</unique>
+  <tid>4</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0xAAF31BC</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>120</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3261</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAF3261</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CInputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>InputPin.cpp</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0xAB0A472</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>COutputPin::Send(unsigned int, bool, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>OutputPin.cpp</file>
+      <line>98</line>
+    </frame>
+    <frame>
+      <ip>0xAAE21A3</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::Notify(IFilter*, unsigned int, bool)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>175</line>
+    </frame>
+    <frame>
+      <ip>0xAAED920</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CGraphBuilder::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>GraphBuilder.cpp</file>
+      <line>600</line>
+    </frame>
+    <frame>
+      <ip>0xAAE27F4</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>CFilterGraph::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>FilterGraph.cpp</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0xAAE707F</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TSet&lt;std::list&lt;dom_ptr&lt;IFilter&gt;, std::allocator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;, std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>266</line>
+    </frame>
+    <frame>
+      <ip>0xAAE6DCE</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>TIt&lt;std::_List_iterator&lt;dom_ptr&lt;IFilter&gt; &gt; &gt;::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia/../inc</dir>
+      <file>dom_ptr.h</file>
+      <line>229</line>
+    </frame>
+    <frame>
+      <ip>0x5058AE9</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libdom.so</obj>
+      <fn>CEventPoint::Notify(unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/dom</dir>
+      <file>EventPoint.cpp</file>
+      <line>53</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a stack allocation</auxwhat>
+  <stack>
+    <frame>
+      <ip>0xAB00744</ip>
+      <obj>/root/work/git/mediaservice/src/bin/Debug/libmedia.so</obj>
+      <fn>non-virtual thunk to CMediaService::OnEvent(Interface*, IIt*, unsigned int, int, void*, void*)</fn>
+      <dir>/root/work/git/mediaservice/src/mulitimedia</dir>
+      <file>MediaService.h</file>
+      <line>37</line>
+    </frame>
+  </stack>
+</error>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:01:23.223 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>2</count>
+    <unique>0xe</unique>
+  </pair>
+  <pair>
+    <count>2</count>
+    <unique>0xd</unique>
+  </pair>
+  <pair>
+    <count>2</count>
+    <unique>0xc</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0xb</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0xa</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x9</unique>
+  </pair>
+  <pair>
+    <count>3</count>
+    <unique>0x6</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x5</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x4</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x3</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x2</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x1</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

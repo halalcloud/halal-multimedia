@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1506597244 source:/root/work/git/mediaservice/src/dom/DomSite.cpp
+	"DomSite.h"
+	<stdio.h>
+	<stdarg.h>
+	<dump.h>
+
+1506597244 /root/work/git/mediaservice/src/dom/DomSite.h
+	<string>
+	<dom.h>
+
+1461581679 /root/work/git/mediaservice/src/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1505359811 /root/work/git/mediaservice/src/inc/dump.h
+	"dom_site.h"
+
+1507875030 /root/work/git/mediaservice/src/inc/dom_site.h
+	"iProfile.h"
+
+1511935175 /root/work/git/mediaservice/src/inc/iProfile.h
+	<interface.h>
+
+1507882647 /root/work/git/mediaservice/src/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1507883288 /root/work/git/mediaservice/src/inc/dom_ptr.h
+	"dom_site.h"
+	"interface_imp.h"
+	"iStream.h"
+
+1507883190 /root/work/git/mediaservice/src/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1510206906 /root/work/git/mediaservice/src/inc/iStream.h
+	<stdint.h>
+	<stdarg.h>
+	<interface.h>
+
+1507878647 source:/root/work/git/mediaservice/src/dom/EventPoint.cpp
+	"EventPoint.h"
+
+1506754347 /root/work/git/mediaservice/src/dom/EventPoint.h
+	<dom.h>
+
+1508305913 source:/root/work/git/mediaservice/src/dom/Library.cpp
+	"Library.h"
+	<limits.h>
+	<stdio.h>
+	<time.h>
+	<assert.h>
+	<dirent.h>
+	<sys/stat.h>
+	<sys/io.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<interface_imp.h>
+	<dump.h>
+	"MemProfile.h"
+
+1508305913 /root/work/git/mediaservice/src/dom/Library.h
+	"Module.h"
+
+1507875105 /root/work/git/mediaservice/src/dom/Module.h
+	<map>
+	"DomSite.h"
+
+1511935452 /root/work/git/mediaservice/src/dom/MemProfile.h
+	<string>
+	<map>
+	<dom.h>
+	<iProfile.h>
+	<iStream.h>
+
+1506676282 source:/root/work/git/mediaservice/src/dom/main.cpp
+	<stdio.h>
+	<interface_imp.h>
+	"Library.h"
+	"MemProfile.h"
+	"EventPoint.h"
+
+1511935391 source:/root/work/git/mediaservice/src/dom/MemProfile.cpp
+	"MemProfile.h"
+	<malloc.h>
+
+1507875128 source:/root/work/git/mediaservice/src/dom/Module.cpp
+	"Module.h"
+	<dlfcn.h>
+	<interface_imp.h>
+	"Library.h"
+

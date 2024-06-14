@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="main.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="966" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../inc/dom_site.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2783" topLine="68" />
+		</Cursor>
+	</File>
+	<File name="Library.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5769" topLine="195" />
+		</Cursor>
+	</File>
+	<File name="Module.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1788" topLine="43" />
+		</Cursor>
+	</File>
+	<File name="../inc/interface.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="515" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="../inc/dump.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1879" topLine="40" />
+		</Cursor>
+	</File>
+	<File name="Library.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1733" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="DomSite.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1454" topLine="42" />
+		</Cursor>
+	</File>
+	<File name="../inc/dom_ptr.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="661" topLine="37" />
+		</Cursor>
+	</File>
+	<File name="DomSite.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="71" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../inc/interface_imp.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3361" topLine="87" />
+		</Cursor>
+	</File>
+	<File name="dom.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="392" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Module.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="872" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

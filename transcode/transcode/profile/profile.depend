@@ -1,0 +1,197 @@
+# depslib dependency file v1.0
+1467194411 source:/home/yf/Work/transcode/profile/main.cpp
+	<interface_imp.h>
+	"MemProfile.h"
+
+1482490010 /home/yf/Work/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1482474530 /home/yf/Work/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /home/yf/Work/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1477380385 /home/yf/Work/transcode/profile/MemProfile.h
+	<string>
+	<map>
+	<dom.h>
+	<iProfile.h>
+	<iStream.h>
+
+1461581679 /home/yf/Work/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/yf/Work/transcode/inc/dump.h
+	"dom_site.h"
+
+1482463188 /home/yf/Work/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1480936989 /home/yf/Work/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/yf/Work/transcode/inc/url.h
+
+1477380274 /home/yf/Work/transcode/inc/iProfile.h
+	<interface.h>
+
+1482475767 source:/home/yf/Work/transcode/profile/MemProfile.cpp
+	"MemProfile.h"
+	<malloc.h>
+
+1467194411 source:/home/centos/work/src/transcode/profile/main.cpp
+	<interface_imp.h>
+	"MemProfile.h"
+
+1483602276 /home/centos/work/src/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1483508609 /home/centos/work/src/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /home/centos/work/src/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1477380385 /home/centos/work/src/transcode/profile/MemProfile.h
+	<string>
+	<map>
+	<dom.h>
+	<iProfile.h>
+	<iStream.h>
+
+1461581679 /home/centos/work/src/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/centos/work/src/transcode/inc/dump.h
+	"dom_site.h"
+
+1483075275 /home/centos/work/src/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /home/centos/work/src/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/centos/work/src/transcode/inc/url.h
+
+1477380274 /home/centos/work/src/transcode/inc/iProfile.h
+	<interface.h>
+
+1483509777 source:/home/centos/work/src/transcode/profile/MemProfile.cpp
+	"MemProfile.h"
+	<malloc.h>
+
+1467194411 source:/home/yf/Work/src/transcode/profile/main.cpp
+	<interface_imp.h>
+	"MemProfile.h"
+
+1483602276 /home/yf/Work/src/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1483508609 /home/yf/Work/src/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /home/yf/Work/src/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1477380385 /home/yf/Work/src/transcode/profile/MemProfile.h
+	<string>
+	<map>
+	<dom.h>
+	<iProfile.h>
+	<iStream.h>
+
+1461581679 /home/yf/Work/src/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /home/yf/Work/src/transcode/inc/dump.h
+	"dom_site.h"
+
+1483075275 /home/yf/Work/src/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /home/yf/Work/src/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /home/yf/Work/src/transcode/inc/url.h
+
+1477380274 /home/yf/Work/src/transcode/inc/iProfile.h
+	<interface.h>
+
+1483509777 source:/home/yf/Work/src/transcode/profile/MemProfile.cpp
+	"MemProfile.h"
+	<malloc.h>
+
+1467194411 source:/root/work/src/transcode/profile/main.cpp
+	<interface_imp.h>
+	"MemProfile.h"
+
+1483602276 /root/work/src/transcode/inc/interface_imp.h
+	<pthread.h>
+	"dom_site.h"
+
+1483508609 /root/work/src/transcode/inc/dom_site.h
+	"interface.h"
+
+1482474205 /root/work/src/transcode/inc/interface.h
+	<stdint.h>
+	<typeinfo>
+	<string.h>
+
+1477380385 /root/work/src/transcode/profile/MemProfile.h
+	<string>
+	<map>
+	<dom.h>
+	<iProfile.h>
+	<iStream.h>
+
+1461581679 /root/work/src/transcode/inc/dom.h
+	"dump.h"
+	"dom_ptr.h"
+	"interface_imp.h"
+
+1475981063 /root/work/src/transcode/inc/dump.h
+	"dom_site.h"
+
+1483075275 /root/work/src/transcode/inc/dom_ptr.h
+	"dom_site.h"
+	"iStream.h"
+
+1483960755 /root/work/src/transcode/inc/iStream.h
+	<stdint.h>
+	"interface.h"
+	"url.h"
+
+1469765076 /root/work/src/transcode/inc/url.h
+
+1477380274 /root/work/src/transcode/inc/iProfile.h
+	<interface.h>
+
+1483509777 source:/root/work/src/transcode/profile/MemProfile.cpp
+	"MemProfile.h"
+	<malloc.h>
+
