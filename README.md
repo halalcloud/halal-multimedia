@@ -62,18 +62,14 @@ ThirdParty/ //第三方库
 
   
 
-```json
 
 config.json
 
   
+```json
 
 {
-
-"root": "/root/media"
-
-  
-
+    "root": "/root/media"
 }
 
 ```
@@ -138,73 +134,67 @@ config.json
 
 {
 
-"input": {
+	"input": {
 
-"url_format":  "%(stream)", //推流变量
+		"url_format": "%(stream)", //推流变量
 
-"option": {
+		"option": {}
 
-}
+	},
 
-},
+	"output": [
 
-"output": [
+		{
 
-{
+			"url_format": "publish://%(stream)", //内部协议分发
+			"media": {
+				"id": "gosun"
+			},
+			"option": {
 
-"url_format":  "publish://%(stream)", //gosun协议分发
+				"buffer": 1
 
-"media": {
+			}
 
-"id":"gosun"
+		},
 
-},
+		{
 
-"option": {
+			"url_format": "publish://%(stream)", //HLS协议分发
 
-"buffer":  1
+			"media": {
 
-}
+				"id": "m3u8"
 
-},
+			},
 
-{
+			"option": {
 
-"url_format":  "publish://%(stream)", //HLS协议分发
+				"buffer": 3
 
-"media": {
+			}
 
-"id":"m3u8"
+		},
 
-},
+		{
 
-"option": {
+			"url_format": "publish://%(stream)", //RTMP,HDL协议分发
 
-"buffer":  3
+			"media": {
 
-}
+				"id": "flv"
 
-},
+			},
 
-{
+			"option": {
 
-"url_format":  "publish://%(stream)", //RTMP,HDL协议分发
+				"buffer": "1s"
 
-"media": {
+			}
 
-"id":"flv"
+		}
 
-},
-
-"option": {
-
-"buffer":  "1s"
-
-}
-
-}
-
-]
+	]
 
 }
 
@@ -212,123 +202,123 @@ config.json
 
 {
 
-"input": {
+	"input": {
 
-"url_format":  "capture://localhost", //本地采集
+		"url_format": "capture://localhost", //本地采集
 
-"option": {
+		"option": {
 
-"video":  "/dev/video0", //视频采集设备
+			"video": "/dev/video0", //视频采集设备
 
-"audio":  "hw:1,0"  //音频采集设备
+			"audio": "hw:1,0" //音频采集设备
 
-}
+		}
 
-},
+	},
 
-"output": [
+	"output": [
 
-{
+		{
 
-"stream": [ //对应转码模板
+			"stream": [ //对应转码模板
 
-0,
+				0,
 
-1
+				1
 
-],
+			],
 
-"url_format":  "publish://%(stream)", //HLS协议分发
+			"url_format": "publish://%(stream)", //HLS协议分发
 
-"media": {
+			"media": {
 
-"id":  "m3u8",
+				"id": "m3u8",
 
-"option": {
+				"option": {
 
-"segment":  "3s", //单片时长3秒
+					"segment": "3s", //单片时长3秒
 
-"buffer":  3  //片数量3片
+					"buffer": 3 //片数量3片
 
-}
+				}
 
-}
+			}
 
-}
+		}
 
-],
+	],
 
-"template": { //转码模板,与转码配置一致参考转码配置
+	"template": { //转码模板,与转码配置一致参考转码配置
 
-"stream": [
+		"stream": [
 
-{
+			{
 
-"media": {
+				"media": {
 
-"id":  "h264",
+					"id": "h264",
 
-"option": {
+					"option": {
 
-"bitrate":  "2m",
+						"bitrate": "2m",
 
-"fps":  25,
+						"fps": 25,
 
-"height":  576,
+						"height": 576,
 
-"ratioX":  16,
+						"ratioX": 16,
 
-"ratioY":  9,
+						"ratioY": 9,
 
-"width":  1024
+						"width": 1024
 
-}
+					}
 
-},
+				},
 
-"transform": [
+				"transform": [
 
-{
+					{
 
-"name":  "CIntelVideoEncoder",
+						"name": "CIntelVideoEncoder",
 
-"option": {
+						"option": {
 
-"preset":  1,
+							"preset": 1,
 
-"gop_size":  25
+							"gop_size": 25
 
-}
+						}
 
-}
+					}
 
-]
+				]
 
-},
+			},
 
-{
+			{
 
-"media": {
+				"media": {
 
-"id":  "aac",
+					"id": "aac",
 
-"option": {
+					"option": {
 
-"bitrate":  "64k",
+						"bitrate": "64k",
 
-"channels":  2,
+						"channels": 2,
 
-"sample_rate":  44100
+						"sample_rate": 44100
 
-}
+					}
 
-}
+				}
 
-}
+			}
 
-]
+		]
 
-}
+	}
 
 }
 
