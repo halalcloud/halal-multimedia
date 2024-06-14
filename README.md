@@ -7,6 +7,9 @@ halal-multimedia 是 2dland.cn 线上使用的转码服务（生产级别）
 
 其依赖于FFMPEG和SLS
 核心思想是通过预转码将各种原始文件转换到中间层，在需要分发的时候再向用户进行二次stream copy 分发
+
+初始版源自于高升公司(gosun)的分发系统，因此协议也兼容gosun的二进制协议
+
 ```
 
   > IDE：codeblocks
